@@ -1,0 +1,191 @@
+.logopages_container{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 25px;
+}
+
+.logo img{
+    width: 400px;
+}
+
+.pages{
+    display: flex;
+    flex-direction: row;
+}
+
+.register{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pages h1,
+.register h1{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 25px 25px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+.pages h1,
+.pages h1::after,
+.pages h1::before,
+.register h1,
+.register h1::after,
+.register h1::before{
+    transition: all .5s;
+}
+
+.pagesResponsive h1:hover,
+.registerResponsive h1:hover{
+    color: #702632;
+}
+
+.pages h1
+.register h1{
+    position: relative;
+}
+
+.pages h1::after,
+.register h1::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: -5px;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #702632;
+    height: 2px;
+}
+
+.pages h1:hover::after,
+.register h1:hover::after{
+    width: 100%;
+}
+
+.register button{
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #702632;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.responsive_container button{
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #702632;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.register button:hover,
+.responsive_container button:hover{
+    border-color: white;
+    transition: all .5s;
+}
+
+/*Responsive*/
+.responsive{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.responsive svg{
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.responsive_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: black;
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    min-width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+}
+
+.responsive_container h1{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.registerResponsive{
+    display: none;
+}
+
+@media screen and (max-width: 1050px){
+    .pages{
+        display: none;
+    }
+
+    .responsive{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 750px){
+    Nav{
+        padding: 0;
+    }
+    
+    .register{
+        display: none;
+    }
+
+    .registerResponsive{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 550px){
+    Nav{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .logo img{
+        width: 200px;
+    }
+}
