@@ -6,8 +6,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .center_home{
+    margin-top: 75px;
+}
+.center_home img{
+    width: 350px;
     
+}
+
+.center_home h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 70px;
 }

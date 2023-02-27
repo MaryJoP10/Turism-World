@@ -7,6 +7,7 @@ const Home = () => {
         <div className='container_home'>
             <div className='center_home'>
                 <img src={inicio} alt="Inicio" />
+                <h1>Turism World</h1>
             </div>
         </div>
     );
