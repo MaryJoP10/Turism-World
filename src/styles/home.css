@@ -3,10 +3,11 @@ body {
 }
 
 .container_home{
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .center_home{
-    position: absolute;
     
 }
