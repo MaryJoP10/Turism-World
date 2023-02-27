@@ -86,6 +86,10 @@ const Navbar = () => {
 
 export const Nav = styled.nav`
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
     width: 100%;
     top: 0;
     left: 0;
