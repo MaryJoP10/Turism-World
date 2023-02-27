@@ -1,8 +1,14 @@
 .footer_container{
     width: 100%;
-    background-color: black;
-    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    align-content: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
  .footer_container img{
-    width: 75px;
+    width: 170px;
+    float: right;
+    margin-right: 20px;
  }
