@@ -51,13 +51,13 @@ const Navbar = () => {
                 <NavLink exact to="/">
                   <h1>Inicio</h1>
                 </NavLink>
-                <NavLink to="/library">
+                <NavLink to="/mapa">
                   <h1>Mapa</h1>
                 </NavLink>
-                <NavLink to="/chat">
+                <NavLink to="/config">
                   <h1>Configuración</h1>
                 </NavLink>
-                <NavLink to="/api">
+                <NavLink to="/help">
                   <h1>Ayuda</h1>
                 </NavLink>
               </div>

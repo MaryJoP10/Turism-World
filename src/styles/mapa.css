@@ -1,0 +1,23 @@
+body {
+    background-color: #6FBDBD;
+}
+
+.container_mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center_mapa{
+    margin-top: 75px;
+}
+.center_mapa img{
+    width: 700px;
+    
+}
+
+.center_mapa h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 70px;
+}
