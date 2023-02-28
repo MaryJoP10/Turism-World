@@ -21,3 +21,23 @@ body {
     font-family:'Courier New', Courier, monospace;
     font-size: 70px;
 }
+
+.center_home button{
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #003E3E;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.center_home button:hover{
+    border-color: white;
+    transition: all .5s;
+}
