@@ -88,7 +88,7 @@
 .responsive_container button{
     padding: 0.5rem 1rem;
     color: #fff;
-    background: #702632;
+    background: #003E3E;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 18px;
@@ -97,6 +97,7 @@
     cursor: pointer;
     border-radius: 5px;
     text-transform: capitalize;
+    margin-top: 10px;
 }
 
 .register button:hover,

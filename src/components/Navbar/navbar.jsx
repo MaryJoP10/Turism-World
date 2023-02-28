@@ -63,7 +63,7 @@ const Navbar = () => {
               </div>
               <div className="registerResponsive">
                 <NavLink to="/signin">
-                  <h1>Sign In</h1>
+                  <button>Sign In</button>
                 </NavLink>
                 <NavLink to="/signup">
                   <button>Sign Up</button>
