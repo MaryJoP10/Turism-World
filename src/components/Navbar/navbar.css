@@ -1,16 +1,9 @@
 .logopages_container{
     flex: 1;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-}
-
-.logo{
-    margin-top: 25px;
-}
-
-.logo img{
-    width: 100px;
+    background-color: #6FBDBD;
 }
 
 .pages{
@@ -20,8 +13,10 @@
 
 .register{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .pages h1,
@@ -49,7 +44,7 @@
 
 .pagesResponsive h1:hover,
 .registerResponsive h1:hover{
-    color: #702632;
+    color: #003E3E;
 }
 
 .pages h1
@@ -67,7 +62,7 @@
     width: 0%;
     content: '.';
     color: transparent;
-    background: #702632;
+    background: #003E3E;
     height: 2px;
 }
 
@@ -79,7 +74,7 @@
 .register button{
     padding: 0.5rem 1rem;
     color: #fff;
-    background: #702632;
+    background: #003E3E;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 20px;
@@ -128,7 +123,7 @@
     align-items: flex-end;
     flex-direction: column;
     text-align: end;
-    background: black;
+    background: rgb(0, 61, 61, 0.3);
     padding: 2rem;
     position: absolute;
     right: 0;

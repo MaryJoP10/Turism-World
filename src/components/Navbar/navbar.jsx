@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./navbar.css";
 import { NavLink as Link } from "react-router-dom";
 import styled from 'styled-components'
-import logo from '../../images/logo.png';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -10,34 +9,28 @@ const Navbar = () => {
     <>
       <Nav>
         <div className="logopages_container">
-          <div className="logo">
-            <NavLink exact to="/">
-              <img src={logo} alt="Logo" />
-            </NavLink>
-          </div>
           <div className="pages">
-            <NavLink to="/library">
-              <h1>Library</h1>
+            <NavLink exact to="/">
+              <h1>Inicio</h1>
             </NavLink>
-            <NavLink to="/community">
-              <h1>Community</h1>
+            <NavLink to="/library">
+              <h1>Mapa</h1>
             </NavLink>
             <NavLink to="/chat">
-              <h1>Chat</h1>
+              <h1>Configuración</h1>
             </NavLink>
             <NavLink to="/api">
-              <h1>API</h1>
+              <h1>Ayuda</h1>
             </NavLink>
           </div>
-        </div>
-        <div className="register">
-          <NavLink to="/signin">
-            <h1>Sign In</h1>
-          </NavLink>
-          <NavLink to="/signup">
-            <button>Sign Up</button>
-          </NavLink>
-
+          <div className="register">
+            <NavLink to="/signin">
+              <button>Sign In</button>
+            </NavLink>
+            <NavLink to="/signup">
+              <button>Sign Up</button>
+            </NavLink>
+          </div>
         </div>
         <div className="responsive">
           {toggleMenu
@@ -55,17 +48,17 @@ const Navbar = () => {
           {toggleMenu && (
             <div className="responsive_container scale-up-center">
               <div className="pagesResponsive">
-                <NavLink to="/library">
-                  <h1>Library</h1>
+                <NavLink exact to="/">
+                  <h1>Inicio</h1>
                 </NavLink>
-                <NavLink to="/community">
-                  <h1>Community</h1>
+                <NavLink to="/library">
+                  <h1>Mapa</h1>
                 </NavLink>
                 <NavLink to="/chat">
-                  <h1>Chat</h1>
+                  <h1>Configuración</h1>
                 </NavLink>
                 <NavLink to="/api">
-                  <h1>API</h1>
+                  <h1>Ayuda</h1>
                 </NavLink>
               </div>
               <div className="registerResponsive">
@@ -85,7 +78,6 @@ const Navbar = () => {
 };
 
 export const Nav = styled.nav`
-    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
