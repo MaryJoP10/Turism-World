@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Colombia",
+        "ciudades": [
+            {
+                "id": 1,
+                "ciudad": "Medellín"
+            }
+        ]
+    }
+]

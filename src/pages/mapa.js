@@ -7,6 +7,7 @@ const Mapa = () => {
         <div className='container_mapa'>
             <div className='center_mapa'>
                 <img src={mapa} alt="Mapa" />
+                
                 <h1>Turism World</h1>
             </div>
         </div>
