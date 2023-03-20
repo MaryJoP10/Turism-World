@@ -1,0 +1,42 @@
+{
+    "country": [
+        {
+            "id" : 1,
+            "name": "Colombia",
+            "places": [
+                {
+                    "id": 1,
+                    "name": "Medellin",
+                    "description": "Medellín está ubicada en el noroccidente de Colombia sobre la coordillera central con una altitud media de 1495 m.s.n.m. Ubicada en el Valle del Aburrá, está rodeada de montañas y es conocida como la “Ciudad de la eterna primavera” por su clima que, durante todo el año, promedia los 24°C.",
+                    "img": "https://cdn.tourradar.com/s3/serp/original/890020_EqjV5AVz.jpg"
+                },
+                {
+                    "id": 2,
+                    "name": "Bogotá",
+                    "description": "Bogotá Distrito Capital, está ubicada en el centro geográfico del país, a 2.600 metros de altura sobre el nivel del mar, con una temperatura promedio de 14 grados centígrados, una superficie de 1.587 km2 y con aproximadamente siete millones de habitantes.",
+                    "img": "https://www.cepal.org/sites/default/files/styles/1920x1080/public/regionaloffice/images/bogota.jpg?itok=o3kfQd06"
+                },
+                {
+                    "id": 3,
+                    "name": "Cali",
+                    "description": "Santiago de Cali es el epicentro de Colombia sobre el Pacifico. Su gente cálida, alegre y amable, quienes reciben con gran afecto y sencillez a sus visitantes, se convierte en el mayor atractivo de esta ciudad cosmopolita, de imagen nacional e internacional.",
+                    "img": "https://blog.uber-cdn.com/cdn-cgi/image/width=2160,quality=80,onerror=redirect,format=auto/wp-content/uploads/2018/06/CO_X-lugares-turi%CC%81sticos-de-Cali-que-te-dejara%CC%81n-sin-palabras.jpg"
+                }
+            ]
+        },
+        {
+            "id" : 2,
+            "name": "Alemania",
+            "places": []
+        },
+        {   "id" : 3,
+            "name": "Belgica",
+            "places": []
+        },
+        {
+            "id" : 4,
+            "name": "Argentina",
+            "places": []
+        }
+    ]
+}
