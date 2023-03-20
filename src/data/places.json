@@ -6,7 +6,7 @@
             "places": [
                 {
                     "id": 1,
-                    "name": "Medellin",
+                    "name": "Medellín",
                     "description": "Medellín está ubicada en el noroccidente de Colombia sobre la coordillera central con una altitud media de 1495 m.s.n.m. Ubicada en el Valle del Aburrá, está rodeada de montañas y es conocida como la “Ciudad de la eterna primavera” por su clima que, durante todo el año, promedia los 24°C.",
                     "img": "https://cdn.tourradar.com/s3/serp/original/890020_EqjV5AVz.jpg"
                 },
@@ -27,16 +27,37 @@
         {
             "id" : 2,
             "name": "Alemania",
-            "places": []
+            "places": [
+                {
+                    "id": 1,
+                    "name": "Berlín",
+                    "description": "Berlín es la capital de Alemania y uno de los dieciséis estados federados alemanes. Se localiza al noreste de Alemania. Por la ciudad fluyen los ríos Spree, Havel, Panke, Dahme y Wuhle.",
+                    "img": "https://www.travelandleisure.com/thmb/Etq4zWgOW-z9H7ZScs5_6WDcDvQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/berlin-germany-aerial-lead-BERLINTG0921-475e3a333c7f4fdea7743c6fc2f261af.jpg"
+                }
+            ]
         },
         {   "id" : 3,
-            "name": "Belgica",
-            "places": []
+            "name": "Bélgica",
+            "places": [
+                {
+                    "id": 1,
+                    "name": "Bruselas",
+                    "description": "Bruselas es una ciudad muy cosmopolita, al ser la capital política de la Unión Europea, albergando el Parlamento Europeo, la Comisión y el Consejo Europeo. Asimismo es sede de la OTAN y se ha convertido en árbitro entre las irreconciliables comunidades de los flamencos y de los valones.",
+                    "img": "https://previews.123rf.com/images/photolondonuk/photolondonuk1711/photolondonuk171100095/91033982-vista-a%C3%A9rea-del-distrito-financiero-de-bruselas-paisaje-urbano-en-b%C3%A9lgica-feat-edificios.jpg"
+                }
+            ]
         },
         {
             "id" : 4,
             "name": "Argentina",
-            "places": []
+            "places": [
+                {
+                    "id": 1,
+                    "name": "Buenos Aires",
+                    "description": "La Ciudad de Buenos Aires o Ciudad Autónoma de Buenos Aires ―también llamada Capital Federal por ser sede del gobierno federal― es la capital de la República Argentina. Está situada en la región centro-este del país, sobre la orilla occidental del Río de la Plata, en plena llanura pampeana.",
+                    "img": "https://estaticos-cdn.elperiodico.com/clip/80ccbd4a-9d52-4b2a-b2b3-e9c254b3447c_alta-libre-aspect-ratio_default_0.jpg"
+                }
+            ]
         }
     ]
 }

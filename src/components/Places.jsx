@@ -39,7 +39,7 @@ export default function Places() {
                         <div className="card-body">
                             <h5 className="card-title">{place.name}</h5>
                             <p className="card-text">{place.description}</p>
-                            <a href="#" className="btn btn-primary">Más Información</a>
+                            {/*<a href="#" className="btn btn-primary">Más Información</a>*/}
                         </div>
                     </div>
                 ))}
