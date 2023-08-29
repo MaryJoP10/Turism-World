@@ -5,9 +5,10 @@ import Home from "./pages/home";
 import Footer from "./components/Footer/footer";
 import Signin from "./pages/signin";
 import Signup from "./pages/signup";
-import Mapa from "./pages/mapa";
-import Ayuda from "./pages/ayuda";
+import Map from "./pages/map";
+import Help from "./pages/ayuda";
 import Config from "./pages/config";
+import Map2 from "./pages/map2";
 
 function App() {
   return (
@@ -18,12 +19,14 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/signin" element={<Signin/>} />
         <Route path="/signup" element={<Signup/>} />
-        <Route path="/mapa" element={<Mapa/>} />
-        <Route path="/help" element={<Ayuda/>} />
+        <Route path="/map" element={<Map/>} />
+        <Route path="/map2" element={<Map2/>} />
+        <Route path="/help" element={<Help/>} />
         <Route path="/config" element={<Config/>} />
       </Routes>
       <Footer/>
     </Router>
+
     </div>
   );
 }

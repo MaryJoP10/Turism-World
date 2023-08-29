@@ -1,0 +1,15 @@
+.world-container{
+    height: 70vh;
+}
+
+.mapBox {
+    background: "red";
+    border: "1px solid";
+    max-width: "250px";
+    min-height: "100px";
+  }
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
