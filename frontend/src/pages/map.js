@@ -64,12 +64,12 @@ const Map = () => {
   };
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', marginTop: '50px', marginBottom: '50px' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', marginTop: '-20px', marginBottom: '20px' }}>
       <MapContainer
         center={center}
         minZoom={2}
         zoom={zoom}
-        style={{ height: '680px', width: '1100px', margin: '20px', display: 'flex', padding: '20px'}}
+        style={{ height: '680px', width: '1100px', marginRight: '20px', marginLeft: '20px', display: 'flex' }}
       >
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
