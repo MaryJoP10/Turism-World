@@ -1,25 +1,47 @@
 .Nav {
-    background-color: #6FBDBD !important;
+    background-color: #6FBDBD;
 }
 
 .logopages_container{
     flex: 1;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.pages{
+.logo{
+    position: absolute;
+    left:0;
+    margin-left: 60px;
+}
+
+.logo img{
+    height: 70px;
+}
+
+.pages {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_icon{
+    color: #fff;
 }
 
 .register{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.register .icon{
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
 }
 
 .pages h1,
@@ -155,6 +177,10 @@
     display: none;
 }
 
+.settings {
+    display: none;
+}
+
 @media screen and (max-width: 1050px){
     .pages{
         display: none;
@@ -162,6 +188,10 @@
 
     .responsive{
         display: flex;
+    }
+
+    .register .icon {
+        margin-right: 50px;
     }
 }
 
@@ -177,16 +207,24 @@
     .registerResponsive{
         display: block;
     }
+
+    .settings {
+        display: flex;
+        right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .settings .icon {
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+    }
+
 }
 
 @media screen and (max-width: 550px){
     Nav{
         padding: 0;
-    }
-}
-
-@media screen and (max-width: 490px){
-    .logo img{
-        width: 200px;
     }
 }
