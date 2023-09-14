@@ -7,7 +7,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <>
-      <Nav>
+      <Nav className="Nav">
         <div className="logopages_container">
           <div className="pages">
             <NavLink  to="/">
