@@ -1,13 +1,13 @@
 import React from 'react';
 import '../styles/home.css';
-import inicio from '../images/inicio.png';
+import home from '../images/home.jpg';
 
 const Home = () => {
 
     return (
         <div className='container_home'>
-            <div className='center_home'>
-                <img src={inicio} alt="Inicio" />
+            <div className='upper_home'>
+                <img src={home} alt="Home" />
                 <h1>Turism World</h1>            
             </div>
         </div>

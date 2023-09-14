@@ -1,8 +1,10 @@
 .Nav {
-    background-color: #6FBDBD;
+    background: rgb(0, 0, 0,0.2);
+    top:0;
 }
 
 .logopages_container{
+    
     flex: 1;
     display: flex;
     align-items: center;
@@ -23,6 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    left: 100px;
 }
 
 .search_icon{
@@ -35,6 +38,7 @@
     margin-right: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .register .icon{
@@ -42,6 +46,7 @@
     width: 30px;
     height: 30px;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .pages h1,
@@ -67,10 +72,7 @@
     transition: all .5s;
 }
 
-.pagesResponsive h1:hover,
-.registerResponsive h1:hover{
-    color: #003E3E;
-}
+
 
 .pages h1
 .register h1{
@@ -98,8 +100,8 @@
 
 .register button{
     padding: 0.5rem 1rem;
-    color: #fff;
-    background: #003E3E;
+    color: #000;
+    background: rgba(254, 254, 254, 0.575);
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 20px;
@@ -110,20 +112,7 @@
     margin-right: 25px;
 }
 
-.responsive_container button{
-    padding: 0.5rem 1rem;
-    color: #fff;
-    background: #003E3E;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    outline: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-transform: capitalize;
-    margin-top: 10px;
-}
+
 
 .register button:hover,
 .responsive_container button:hover{
@@ -146,26 +135,72 @@
 }
 
 .responsive_container{
-    display: flex;
+    display: block;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
     text-align: end;
-    background: rgb(0, 61, 61, 0.3);
+    background: rgba(0, 0, 0, 0.6);
     padding: 2rem;
     position: absolute;
     right: 0;
-    top: 40px;
+    top: 68px;
+    margin-right: 10px;
     min-width: 150px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+}
+
+.pagesResponsive h1 {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+.pagesResponsive h1::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: -5px;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #fff;
+    height: 2px;
+}
+
+.pagesResponsive h1:hover::after{
+    width: 100%;
+}
+
+.responsive_container button{
+    padding: 0.5rem 1rem;
+    color: #000;
+    background: rgba(254, 254, 254, 0.575);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    width: 120px;
+    margin-left:5px
 }
 
 .responsive_container h1{
     color: #fff;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 30px;
     line-height: 25px;
     text-transform: capitalize;
     margin: 0 1rem;
@@ -179,6 +214,12 @@
 
 .settings {
     display: none;
+}
+
+@media screen and (max-width: 1230px){
+    .search_field{
+        width: 150px !important;
+    }
 }
 
 @media screen and (max-width: 1050px){
@@ -196,10 +237,6 @@
 }
 
 @media screen and (max-width: 750px){
-    Nav{
-        padding: 0;
-    }
-    
     .register{
         display: none;
     }
@@ -209,9 +246,7 @@
     }
 
     .settings {
-        display: flex;
-        right: 0;
-        margin-bottom: 20px;
+        display:flex;
     }
     
     .settings .icon {
@@ -219,6 +254,7 @@
         width: 30px;
         height: 30px;
         margin-left: 20px;
+        cursor: pointer;
     }
 
 }

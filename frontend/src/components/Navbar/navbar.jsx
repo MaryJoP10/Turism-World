@@ -65,10 +65,10 @@ const Navbar = () => {
           </div>
           <div className="register">
             <NavLink to="/signin">
-              <button>Sign In</button>
+              <button>Iniciar Sesión</button>
             </NavLink>
             <NavLink to="/signup">
-              <button>Sign Up</button>
+              <button>Registrarse</button>
             </NavLink>
             {toggleConfig
               ? <FiSettings className="icon" onClick={() => setToggleConfig(false)} />
@@ -104,17 +104,16 @@ const Navbar = () => {
           {toggleMenu && (
             <div className="responsive_container">
               <div className="pagesResponsive">
-
                 <NavLink to="/map">
                   <h1>Mapa</h1>
                 </NavLink>
               </div>
               <div className="registerResponsive">
                 <NavLink to="/signin">
-                  <button>Sign In</button>
+                  <button>Iniciar Sesión</button>
                 </NavLink>
                 <NavLink to="/signup">
-                  <button>Sign Up</button>
+                  <button>Registrarse</button>
                 </NavLink>
               </div>
             </div>
