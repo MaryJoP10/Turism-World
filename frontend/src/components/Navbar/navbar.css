@@ -1,8 +1,3 @@
-.Nav {
-    background: rgb(0, 0, 0,0.2);
-    
-}
-
 .logopages_container{   
     flex: 1;
     display: flex;
@@ -43,8 +38,8 @@
 
 .register .icon{
     color: #fff;
-    width: 30px;
-    height: 30px;
+    width: 3.5vw;
+    height: 3.5vh;
     margin-left: 10px;
     cursor: pointer;
 }
@@ -132,6 +127,8 @@
 .responsive svg{
     cursor: pointer;
     margin-right: 20px;
+    height: 5vh;
+    width: 5vw;
 }
 
 .responsive_container{
@@ -237,6 +234,13 @@
 }
 
 @media screen and (max-width: 750px){
+    .nav{
+        background: rgba(0, 0, 0, 0) !important;
+    }
+    .logopages_container .logo{
+        display:none;
+    }
+    
     .register{
         display: none;
     }
@@ -251,8 +255,8 @@
     
     .settings .icon {
         color: #fff;
-        width: 30px;
-        height: 30px;
+        width: 4vw;
+        height: 4vh;
         margin-left: 20px;
         cursor: pointer;
     }
@@ -260,7 +264,10 @@
 }
 
 @media screen and (max-width: 550px){
-    Nav{
-        padding: 0;
+    .settings .icon{
+        margin-left: 0;
+    }
+    .responsive svg{
+        margin-right: 10px;
     }
 }

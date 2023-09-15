@@ -14,28 +14,9 @@ const Navbar = () => {
   const handleChange = (event) => {
     setSearchInput(event.target.value);
   };
-  const CssTextField = styled(TextField)({
-    '& label.Mui-focused': {
-      color: '#A0AAB4',
-    },
-    '& .MuiInput-underline:after': {
-      borderBottomColor: '#B2BAC2',
-    },
-    '& .MuiOutlinedInput-root': {
-      '& fieldset': {
-        borderColor: '#E0E3E7',
-      },
-      '&:hover fieldset': {
-        borderColor: '#B2BAC2',
-      },
-      '&.Mui-focused fieldset': {
-        borderColor: '#6F7E8C',
-      },
-    },
-  });
   return (
     <>
-      <Nav className="Nav">
+      <Nav className="nav">
         <div className="logopages_container">
           <div className="logo">
             <NavLink to="/">
@@ -85,7 +66,6 @@ const Navbar = () => {
               </div>
             )}
           </div>
-
         </div>
         <div className="responsive">
           {/*Responsive Hambar*/}
@@ -141,16 +121,17 @@ const Navbar = () => {
   );
 };
 
+
 export const Nav = styled.nav`
+    background: rgba(0,0,0,0.2);
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 2;`
-
 
 export const NavLink = styled(Link)`
     color: white;`
