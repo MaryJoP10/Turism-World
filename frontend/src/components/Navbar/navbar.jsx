@@ -4,7 +4,7 @@ import { NavLink as Link } from "react-router-dom";
 import styled from 'styled-components'
 import Logo from "../../images/logo.png"
 import { FiSettings } from "react-icons/fi"
-import { Container, InputAdornment, TextField } from "@mui/material";
+import { InputAdornment, TextField } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 
 const Navbar = () => {
