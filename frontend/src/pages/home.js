@@ -2,11 +2,11 @@ import React from 'react';
 import '../styles/home.css';
 import home from '../images/home.jpg';
 import { BiSolidHotel, BiSolidTrain, BiCommentDetail, BiWorld } from "react-icons/bi";
-import { FaRegLightbulb } from "react-icons/fa";
 import { MdFastfood, MdPlace } from "react-icons/md";
 import { TbGavel } from "react-icons/tb";
-import { FaPersonWalkingLuggage } from "react-icons/fa6";
+import { FaPersonWalkingLuggage} from "react-icons/fa6";
 import { LuPartyPopper } from "react-icons/lu";
+import {PiLightbulbBold} from "react-icons/pi";
 
 const Home = () => {
 
@@ -23,12 +23,12 @@ const Home = () => {
                     <a href="./map"><button>Busca tu destino</button></a>
                 </div>
             </div>
-            {/*<div className='services_home'>
+            <div className='services_home'>
                 <h1>Descubre</h1>
                 <table>
                     <tr>
                         <td>
-                            <FaRegLightbulb className='icon' />
+                            <PiLightbulbBold className='icon' />
                             <p>Generalidades</p>
                         </td>
                         <td>
@@ -72,7 +72,7 @@ const Home = () => {
                         </td>
                     </tr>
                 </table>
-    </div>*/}
+            </div>
             <div className="mision_home">
                 <h1>Objetivo</h1>
             </div>
