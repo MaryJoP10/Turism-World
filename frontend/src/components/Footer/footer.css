@@ -1,9 +1,27 @@
-.footer_container{
+footer{
+    background-color: #008385;
     width: 100%;
-    align-content: right;
+    height: auto;
+    margin-top: 6vh;
+    margin-bottom: 0;
+    bottom: 0;
+    left: 0;
+    align-content: center;
+    
 }
- .footer_container img{
-    width: 100px;
-    float: right;
-    margin-right: 10px;
- }
+footer p{
+    color:#fff;
+    font-size: 1.5vw;
+}
+.btn{
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+.icon_footer {
+    font-size: 3vw;
+}
+.copyright{
+    background-color: rgba(0, 0, 0, 0.2);
+}

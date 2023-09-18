@@ -6,7 +6,7 @@ import Footer from "./components/Footer/footer";
 import Signin from "./pages/signin";
 import Signup from "./pages/signup";
 import Map from "./pages/map";
-import Help from "./pages/ayuda";
+import Help from "./pages/help";
 import Config from "./pages/config";
 
 function App() {
