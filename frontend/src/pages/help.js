@@ -1,31 +1,20 @@
 import React from 'react';
-import '../styles/ayuda.css';
+import '../styles/help.css';
+import Upper from '../images/upper.jpg'
+import Mailer from '../components/Mailer/Mailer.jsx';
 
-const Ayuda = () => {
+const Help = () => {
 
     return (
-        <div className='ayuda_page'>
-            <div className='container_ayuda'>
-                <form>
-                    <h1>Contactanos</h1>
-                    <div className='input_ayuda'>
-                        <div className='label'>
-                            <input type='text' />
-                            <label>Nombre</label>
-                        </div>
-                        <div className='label'>
-                            <input type='text' />
-                            <label>Correo</label>
-                        </div>
-                        <div className='label'>
-                            <textarea type='text' />
-                            <label>Inquietud</label>
-                        </div>
-                        <button>Consultar</button>
-                    </div>
-                </form>
+        <>
+            <div className="header_help">
+                <img src={Upper} />
+                <h1 className="h1 header_text">Contáctanos</h1>
             </div>
-        </div>
+            <div className='help_page'>
+                <Mailer/>
+            </div>
+        </>
     );
 }
-export default Ayuda;
+export default Help;

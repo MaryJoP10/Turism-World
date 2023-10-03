@@ -4,6 +4,7 @@ import { NavLink as Link } from "react-router-dom";
 import styled from 'styled-components'
 import Logo from "../../images/logo.png"
 import { FiSettings } from "react-icons/fi"
+import { GrLanguage } from "react-icons/gr";
 import { InputAdornment, TextField } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 
@@ -28,21 +29,21 @@ const Navbar = () => {
               <h1>Mapa</h1>
             </NavLink>
             <div className="search_container">
-                <TextField className="search_field"
-                  type="search"
-                  label="Buscar"
-                  value={searchInput}
-                  onChange={handleChange}
-                  sx={{ width: 300 }}
-                  InputProps={{
-                    endAdornment: (
-                      <InputAdornment position="end">
-                        <SearchIcon className="search_icon"/>
-                      </InputAdornment>
-                    ),
-                  }}
-                />
-              </div>
+              <TextField className="search_field"
+                type="search"
+                label="Buscar"
+                value={searchInput}
+                onChange={handleChange}
+                sx={{ width: 300 }}
+                InputProps={{
+                  endAdornment: (
+                    <InputAdornment position="end">
+                      <SearchIcon className="search_icon" />
+                    </InputAdornment>
+                  ),
+                }}
+              />
+            </div>
           </div>
           <div className="register">
             <NavLink to="/signin">
@@ -56,9 +57,9 @@ const Navbar = () => {
               : <FiSettings className="icon" onClick={() => setToggleConfig(true)} />
             }
             {toggleConfig && (
-              <div className="config_menu">
+              <div className="config_menu responsive_container pagesResponsive">
                 <NavLink to="/config">
-                  <h1>Configuración</h1>
+                  <GrLanguage className="lan_icon"/>
                 </NavLink>
                 <NavLink to="/help">
                   <h1>Ayuda</h1>
@@ -105,9 +106,9 @@ const Navbar = () => {
               : <FiSettings className="icon" onClick={() => setToggleConfig(true)} />
             }
             {toggleConfig && (
-              <div className="config_menu">
+              <div className="config_menu responsive_container pagesResponsive">
                 <NavLink to="/config">
-                  <h1>Configuración</h1>
+                  <GrLanguage className="lan_icon"/>
                 </NavLink>
                 <NavLink to="/help">
                   <h1>Ayuda</h1>

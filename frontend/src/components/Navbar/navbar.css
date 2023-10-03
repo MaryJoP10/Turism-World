@@ -84,7 +84,7 @@
     width: 0%;
     content: '.';
     color: transparent;
-    background: #003E3E;
+    background: #fff;
     height: 2px;
 }
 
@@ -113,6 +113,10 @@
 .responsive_container button:hover{
     border-color: white;
     transition: all .5s;
+}
+
+.settings .lan_icon{
+    color:#fff !important;
 }
 
 /*Responsive*/

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-box {
+  width: clamp(100px, 90%, 1000px);
+  margin: 80px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 0 20px;
+  border-radius: 20px;
+}
+.contact-links, .contact-form-wrapper {
+  width: 50%;
+  padding: 8% 5% 5% 5%;
+}
+.contact-links {
+  background-color: #fff;
+  border-radius: 10px 0 0 10px;
+}
+.contact-form-wrapper {
+  background-color: #b7eafe;
+  border-radius: 0 10px 10px 0;
+}
+.contact-form-wrapper button{
+  font-family: var(--font-family);
+  border-radius: 20px;
+  border-color: #003E3E;
+  width: 30%;
+  background-color: #003E3E;
+  color: #fff;
+  font-size: 16px;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.contact-form-wrapper button:hover {
+  border-color: #fff;
+  transition: all 0.5s;
+}
+.contact-box img {
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .contact-links, .contact-form-wrapper {
+    width: 100%;
+  }
+  
+  .contact-links {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .contact-form-wrapper {
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact-box {
+    width: 95%;
+    margin: 8% 5%;
+  }
+}
+
+h2 {
+  font-family:'Times New Roman', Times, serif;
+  color: #000;
+  font-size: clamp(20px, 2.5vw, 40px);
+  letter-spacing: 2px;
+  text-align: center;
+  transform: scale(.95, 1);
+  margin-bottom: 3vh;
+}
+
+.form-item {
+  position: relative;
+}
+
+label, input, textarea {
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  left: 2%;
+  color: #000;
+  font-size: clamp(14px, 1.5vw, 18px);
+  pointer-events: none;
+  user-select: none;
+}
+
+input, textarea {
+  width: 100%;
+  outline: 0;
+  border: 1px solid #272727fd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 12px;
+  font-size: clamp(15px, 1.5vw, 18px);
+  
+}
+
+input:focus+label, 
+input:valid+label, 
+textarea:focus+label, 
+textarea:valid+label {
+  font-size: clamp(13px, 1.3vw, 16px);
+  color: #777;
+  top: -20px;
+  transition: all .225s ease;
+}
+
+@media only screen and (max-width: 800px) {
+  h2 {
+    font-size: clamp(40px, 10vw, 60px);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  h2 {
+    font-size: clamp(30px, 12vw, 60px);
+  }
+  
+  .links {
+    padding-top: 30px;
+  }
+  
+  img {
+    width: 38px;
+    height: 38px;
+  }
+}
