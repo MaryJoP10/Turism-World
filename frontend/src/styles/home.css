@@ -165,6 +165,12 @@ body {
         height: 5vh;
     }
 }
+/*Mision*/
+@media screen and (max-width: 400px) {
+    .mision_home img{
+        height: 100%;
+    }
+}
 
 /*--------------------------General------------------------*/
 .button {
