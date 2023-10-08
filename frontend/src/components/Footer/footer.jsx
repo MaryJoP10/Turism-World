@@ -1,6 +1,7 @@
 import React from 'react';
 import "./footer.css";
 import { AiFillGithub, AiOutlineLinkedin, AiOutlineInstagram, AiOutlineGoogle } from 'react-icons/ai';
+import {BiHelpCircle} from 'react-icons/bi';
 
 const Footer = () => {
     return (
@@ -20,6 +21,9 @@ const Footer = () => {
                         </a>
                         <a className="btn btn-outline-light btn-floationg m-1" href="#!" role="button">
                             <AiOutlineGoogle className='icon_footer' />
+                        </a>
+                        <a className="btn btn-outline-light btn-floationg m-1" href="./help" role="button">
+                            <BiHelpCircle className='icon_footer' />
                         </a>
                     </section>
                 </div>

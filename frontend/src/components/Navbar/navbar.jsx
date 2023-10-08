@@ -3,8 +3,7 @@ import "./navbar.css";
 import { NavLink as Link } from "react-router-dom";
 import styled from 'styled-components'
 import Logo from "../../images/logo.png"
-import { FiSettings } from "react-icons/fi"
-import { GrLanguage } from "react-icons/gr";
+import { MdLanguage } from "react-icons/md";
 import { InputAdornment, TextField } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 
@@ -53,17 +52,12 @@ const Navbar = () => {
               <button>Registrarse</button>
             </NavLink>
             {toggleConfig
-              ? <FiSettings className="icon" onClick={() => setToggleConfig(false)} />
-              : <FiSettings className="icon" onClick={() => setToggleConfig(true)} />
+              ? <MdLanguage className="icon" onClick={() => setToggleConfig(false)} />
+              : <MdLanguage className="icon" onClick={() => setToggleConfig(true)} />
             }
             {toggleConfig && (
               <div className="config_menu responsive_container pagesResponsive">
-                <NavLink to="/config">
-                  <GrLanguage className="lan_icon"/>
-                </NavLink>
-                <NavLink to="/help">
-                  <h1>Ayuda</h1>
-                </NavLink>
+                
               </div>
             )}
           </div>
@@ -102,17 +96,12 @@ const Navbar = () => {
           {/*Responsive Settings*/}
           <div className="settings">
             {toggleConfig
-              ? <FiSettings className="icon" onClick={() => setToggleConfig(false)} />
-              : <FiSettings className="icon" onClick={() => setToggleConfig(true)} />
+              ? <MdLanguage className="icon" onClick={() => setToggleConfig(false)} />
+              : <MdLanguage className="icon" onClick={() => setToggleConfig(true)} />
             }
             {toggleConfig && (
               <div className="config_menu responsive_container pagesResponsive">
-                <NavLink to="/config">
-                  <GrLanguage className="lan_icon"/>
-                </NavLink>
-                <NavLink to="/help">
-                  <h1>Ayuda</h1>
-                </NavLink>
+                
               </div>
             )}
           </div>
