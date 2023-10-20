@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/help.css';
+import '../styles/App.css';
 import Upper from '../images/upper.jpg'
 import Mailer from '../components/Mailer/Mailer.jsx';
 

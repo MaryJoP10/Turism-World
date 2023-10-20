@@ -33,7 +33,6 @@ export const Mailer = () => {
         document.body.appendChild(img);
 
         setTimeout(() => {
-          // Realiza la redirección suave con una transición de opacidad
           const form = document.querySelector('.contact-form-wrapper');
           form.style.transition = 'opacity 1s';
           form.style.opacity = '0';

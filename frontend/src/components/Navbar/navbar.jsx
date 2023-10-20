@@ -48,9 +48,6 @@ const Navbar = () => {
             <NavLink to="/signin">
               <button>Iniciar Sesión</button>
             </NavLink>
-            <NavLink to="/signup">
-              <button>Registrarse</button>
-            </NavLink>
             {toggleConfig
               ? <MdLanguage className="icon" onClick={() => setToggleConfig(false)} />
               : <MdLanguage className="icon" onClick={() => setToggleConfig(true)} />
@@ -86,9 +83,6 @@ const Navbar = () => {
               <div className="registerResponsive">
                 <NavLink to="/signin">
                   <button>Iniciar Sesión</button>
-                </NavLink>
-                <NavLink to="/signup">
-                  <button>Registrarse</button>
                 </NavLink>
               </div>
             </div>
