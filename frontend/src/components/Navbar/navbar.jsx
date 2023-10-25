@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="logopages_container">
           <div className="logo">
             <NavLink to="/">
-              <img src={Logo} />
+              <img src={Logo} alt=''/>
             </NavLink>
           </div>
           <div className="pages">
@@ -105,7 +105,7 @@ const Navbar = () => {
   );
 };
 
-
+export default Navbar;
 export const Nav = styled.nav`
     background: rgba(0,0,0,0.2);
     display: flex;
@@ -120,4 +120,3 @@ export const Nav = styled.nav`
 export const NavLink = styled(Link)`
     color: white;`
 
-export default Navbar;

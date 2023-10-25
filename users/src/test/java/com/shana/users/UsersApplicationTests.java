@@ -1,10 +1,10 @@
-package turism.demo;
+package com.shana.users;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class UsersApplicationTests {
 
 	@Test
 	void contextLoads() {

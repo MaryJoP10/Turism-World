@@ -1,11 +1,64 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Upper from '../images/upper.jpg';
 import styled from 'styled-components';
 import '../styles/signin.css';
-
+import axios from 'axios';
 
 const Signin = () => {
     const [signIn, toggle] = React.useState(true);
+    const [message, setMessage] = useState(''); 
+    const [user, setUser] = useState({
+        username: "",
+        email: "",
+        password: ""
+    });
+    const [userlog, setUserlog] = useState ({
+        username: "",
+        passwrod: ""
+    });
+    const navigate = useNavigate();
+
+    const handleFormSubmit = async (e) => {
+        e.preventDefault();
+        axios.post('http://localhost:8080/api/users/signup', user)
+            .then(function (response) {
+                if (response.data.valid) {
+                    localStorage.setItem("user", JSON.stringify(user));
+                    setMessage('Se registró correctamente');
+                    setTimeout(() => {
+                        window.location.reload();
+                      }, 500);
+                }
+                else {
+                    setMessage("El usuario o email ya existen");
+                    setUser({
+                        username: "",
+                        email: "",
+                        password: ""
+                    })
+                }
+            });
+    };
+
+    const handleLogin = async (e) => {
+        e.preventDefault();
+        axios.post('http://localhost:8080/api/users/signin', userlog)
+          .then(function (response) {
+            if(response.data.valid){
+                alert("Correcto");
+                navigate('/');
+            }
+            else {
+                setMessage("Usuario o contraseña incorrectos.");
+                setUserlog({
+                    username: "",
+                    password: ""
+                })
+            }
+          })
+    };
+
     return (
         <>
             <div className="header_help">
@@ -13,24 +66,25 @@ const Signin = () => {
                 <h1 className="h1 header_text">¡Bienvenido!</h1>
             </div>
             <div className="signin-page">
+                {message && <div className="message_auth">{message}</div>}
                 <Container>
                     <SignUpContainer signinIn={signIn}>
-                        <Form>
+                        <Form onSubmit={handleFormSubmit}>
                             <Title>Crea una cuenta</Title>
-                            <Input type='text' placeholder='Usuario' required/>
-                            <Input type='email' placeholder='Email' required/>
-                            <Input type='password' placeholder='Contraseña' required/>
-                            <Button>Registrarse</Button>
+                            <Input value={user.username} onChange={(e) => setUser({ ...user, username: e.target.value })} type='text' placeholder='Usuario' required />
+                            <Input value={user.email} onChange={(e) => setUser({ ...user, email: e.target.value })} type='email' placeholder='Email' required />
+                            <Input value={user.password} onChange={(e) => setUser({ ...user, password: e.target.value })} type='password' placeholder='Contraseña' required />
+                            <Button type='submit'>Registrarse</Button>
                         </Form>
                     </SignUpContainer>
 
                     <SignInContainer signinIn={signIn}>
-                        <Form>
+                        <Form onSubmit={handleLogin}>
                             <Title>Inicia sesión</Title>
-                            <Input type='email' placeholder='Email' required/>
-                            <Input type='password' placeholder='Contraseña' required/>
+                            <Input value={userlog.username} onChange={(e) => setUserlog({ ...userlog, username: e.target.value })} type='text' placeholder='Usuario' required />
+                            <Input value={userlog.password} onChange={(e) => setUserlog({ ...userlog, password: e.target.value })} type='password' placeholder='Contraseña' required />
                             <Anchor href='#'>¿Olvidaste la contraseña?</Anchor>
-                            <Button>Iniciar sesión</Button>
+                            <Button type='submit'>Iniciar sesión</Button>
                         </Form>
                     </SignInContainer>
 
