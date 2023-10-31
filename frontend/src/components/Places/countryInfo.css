@@ -1,0 +1,14 @@
+.header_help img {
+    height: 60vh;
+}
+.country_content{
+    margin-top: 5vh;
+}
+.country_content h1{
+    color: hsl(0, 0%, 0%);
+}
+.body_content{
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}

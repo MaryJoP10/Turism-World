@@ -2,60 +2,977 @@
     "country": [
         {
             "id" : 1,
-            "name": "Colombia",
-            "places": [
+            "name": "Alemania",
+            "img": "https://img.freepik.com/fotos-premium/detalle-edificio-reichstag-banderas-alemanas-berlin-capital-alemania_250132-10938.jpg",
+            "header": "https://destinos.viajo.org/images/berlin.jpg",
+            "lat": "51.165691",
+            "long": "10.451526",
+            "of_name": "República Federal de Alemania",
+            "capital": "Berlín",
+            "surface": "357.020,70 km²",
+            "location": "Alemania se encuentra ubicada en el centro de Europa con fronteras con: Francia, Suiza y Austria por el sur; Bélgica, Holanda y Luxemburgo por el oeste; Dinamarca por el Norte y Polonia y la República Checa por el este.",
+            "poblation": "84,3 millones",
+            "languaje": "Alemán",
+            "currency": "Euro",
+            "img_general": "https://cdn.pixabay.com/photo/2016/06/30/16/36/germany-1489365_1280.png",
+            "recommendation_1": "Alemania es un destino seguro, pero es importante estar alerta y cuidar tus pertenencias, especialmente en áreas turísticas concurridas.",
+            "recommendation_2": "El sistema de salud es de alta calidad, pero es aconsejable tener un seguro de viaje para emergencias médicas.",
+            "recommendation_3": "Verifica si necesitas una visa para visitar Alemania, dependiendo de tu nacionalidad y el propósito de tu visita. Normalmente puedes estar sin visa de turismo por no más de 90 días. Además asegúrate de tener un pasaporte válido durante tu estancia.",
+            "recommendation_4": "Los horarios comerciales en Alemania varían según la región, pero en general, las tiendas cierran temprano los sábados y permanecen cerradas los domingos. Los supermercados grandes a menudo tienen horarios de apertura más largos los sábados.",
+            "recommendation_5": "Asegúrate de tener un seguro médico de viaje que cubra cualquier atención médica que puedas necesitar en Alemania. Es recomendable llevar una tarjeta de seguro médico y los detalles de contacto de tu compañía de seguros.",
+            "culture": [
+                {
+                    "name": "Historia",
+                    "description":"La historia de Alemania es un viaje complejo a lo largo de los siglos, desde las tribus germánicas de la antigüedad hasta la formación del Imperio Alemán bajo Bismarck en 1871, pasando por la devastación de la Primera y Segunda Guerra Mundial, la división del país durante la Guerra Fría y, finalmente, su reunificación en 1990. A lo largo de esta historia, Alemania ha sido testigo de momentos de esplendor cultural y oscuros episodios, y ha emergido como una nación unificada y democrática con una influencia significativa en la escena mundial.",
+                    "img": "https://www.elindependiente.com/wp-content/uploads/2019/11/Maerz1848_berlin.jpg"
+                },
+                {
+                    "name": "Creencias y religión",
+                    "description":"Alemania es un país con una diversidad de creencias y sistemas de valores. Aunque la religión cristiana, tanto católica como protestante, tiene una presencia significativa, la sociedad alemana también es cada vez más secular. La tolerancia religiosa es un valor importante en Alemania, y la libertad de religión está protegida por la ley. Además, la creencia en la importancia de la igualdad de género, el respeto por el medio ambiente y la responsabilidad social son pilares fundamentales en la cultura alemana, influyendo en la forma en que la sociedad aborda cuestiones éticas y morales.",
+                    "img": "https://www.infocatolica.com/files/21/09/alemcruz.jpg"
+                },
+                {
+                    "name": "Vestimenta",
+                    "description":"La moda en Alemania refleja una combinación de tradición y modernidad. La vestimenta diaria es generalmente informal y práctica, con una inclinación hacia la comodidad y la funcionalidad. La ropa de alta calidad y los atuendos bien confeccionados son apreciados. En ocasiones especiales, como bodas o eventos formales, es común ver a las personas vestidas elegantemente, a menudo optando por trajes y vestidos. La moda en Alemania es diversa y variada, y las tendencias actuales coexisten con la apreciación de la artesanía y la calidad en la elección de la ropa.",
+                    "img": "https://images.prismic.io/dutchlabelshop/ccc5905c-13a3-4225-bdb3-7774d08a509f_german_folk_clothing.jpg?auto=compress,format"
+                },
+                {
+                    "name": "Comportamiento",
+                    "description":"El comportamiento de los alemanes se caracteriza por la puntualidad, la eficiencia y la cortesía. La organización y la planificación son fundamentales en la vida diaria, y cumplir con los horarios es una norma social importante. La comunicación directa y franca es valorada, y se espera que las personas sean precisas en su expresión. La cultura de la cortesía incluye el respeto a la privacidad de los demás y la puntualidad en las citas. Los alemanes también son conocidos por su compromiso con la calidad en el trabajo y en su vida cotidiana. Aunque la sociedad puede parecer reservada al principio, una vez que se establece una relación, las amistades suelen ser sólidas y duraderas.",
+                    "img": "https://blog.universaldeidiomas.com/wp-content/uploads/2021/05/Aspectos-resaltantes-del-estilo-de-vida-en-Alemania-1@2x.jpg"
+                },
+                {
+                    "name": "Entretenimiento",
+                    "description":"La cultura de entretenimiento en Alemania es variada y rica en tradición. El país ha sido cuna de renombrados músicos clásicos, como Beethoven y Bach, y tiene una escena musical contemporánea vibrante que abarca desde la música electrónica en Berlín hasta festivales de música clásica. El teatro y la ópera son apreciados, y el país es conocido por su teatro experimental y vanguardista. El cine alemán ha tenido un impacto significativo en la historia del cine, con figuras como Fritz Lang y el movimiento expresionista alemán. Además, los eventos culturales, como el Oktoberfest, el carnaval en Colonia y los mercados de Navidad, ofrecen experiencias festivas y de entretenimiento que reflejan la rica tradición cultural del país. Alemania es un lugar donde la tradición y la vanguardia se fusionan en el mundo del entretenimiento.",
+                    "img": "https://hablemosdeculturas.com/wp-content/uploads/2017/12/Cultura-Alemana-02.jpg"
+                }
+            ],
+            "gastronomy":[
                 {
                     "id": 1,
-                    "name": "Medellín",
-                    "description": "Medellín está ubicada en el noroccidente de Colombia sobre la coordillera central con una altitud media de 1495 m.s.n.m. Ubicada en el Valle del Aburrá, está rodeada de montañas y es conocida como la “Ciudad de la eterna primavera” por su clima que, durante todo el año, promedia los 24°C.",
-                    "img": "https://cdn.tourradar.com/s3/serp/original/890020_EqjV5AVz.jpg"
+                    "name": "Salchicha",
+                    "description":"Las salchichas hacen parte de la icónica gastronomía de Alemania. Hay una gran variedad de salchichas alemanas, cada una con sus propias características y sabores únicos. Cada región tiene su salchicha particular.",
+                    "img": "https://tipsparatuviaje.com/wp-content/uploads/2019/12/comida-alemana.jpg"
                 },
                 {
                     "id": 2,
-                    "name": "Bogotá",
-                    "description": "Bogotá Distrito Capital, está ubicada en el centro geográfico del país, a 2.600 metros de altura sobre el nivel del mar, con una temperatura promedio de 14 grados centígrados, una superficie de 1.587 km2 y con aproximadamente siete millones de habitantes.",
-                    "img": "https://www.cepal.org/sites/default/files/styles/1920x1080/public/regionaloffice/images/bogota.jpg?itok=o3kfQd06"
+                    "name": "Cerveza",
+                    "description":"La cerveza alemana es famosa en todo el mundo por la calidad, variedad y tradición. Alemania es reconocido por ser uno de los países más cerveceros más destacados. Hay más de 5000 variedades de cervezas diferentes.",
+                    "img": "https://www.guiadealemania.com/wp-content/uploads/2011/03/Tipos-de-cervezas-en-Alemania-760x500.jpg"
                 },
                 {
                     "id": 3,
-                    "name": "Cali",
-                    "description": "Santiago de Cali es el epicentro de Colombia sobre el Pacifico. Su gente cálida, alegre y amable, quienes reciben con gran afecto y sencillez a sus visitantes, se convierte en el mayor atractivo de esta ciudad cosmopolita, de imagen nacional e internacional.",
-                    "img": "https://blog.uber-cdn.com/cdn-cgi/image/width=2160,quality=80,onerror=redirect,format=auto/wp-content/uploads/2018/06/CO_X-lugares-turi%CC%81sticos-de-Cali-que-te-dejara%CC%81n-sin-palabras.jpg"
+                    "name": "Bretzel",
+                    "description":"Es un alimento icónico y muy popular en Alemania. Es un panecillo retorcido con la superficie dorada y salada, con una froma muy única (lazo o nudo). También se encuentran variedades del Bretzel.",
+                    "img": "https://d1kxxrc2vqy8oa.cloudfront.net/wp-content/uploads/2021/08/22111304/RFB-2603-4-bretzel.jpg"
+                },
+                {
+                    "id": 4,
+                    "name": "Schnitzel",
+                    "description":"Es uno de los platos típicos de Alemania y Austria, pero también se puede encontrar en otros países europeos. Es una carne apanada y frita, la cual normalmente esta hecha de carne de cerdo o ternera.",
+                    "img": "https://i.ytimg.com/vi/HJ8paSz9-ys/mqdefault.jpg"
+                }
+            ],
+            "fest":[
+                {
+                    "name": "Año Nuevo (Neujahr)",
+                    "description":"La llegada del Año Nuevo se celebra en toda Alemania con fuegos artificiales y festividades públicas.",
+                    "img": "https://actualidaddealemania.files.wordpress.com/2015/12/berlin.jpg?w=800"
+                },
+                {
+                    "name": "Semana Santa (Ostern)",
+                    "description":"Las festividades de Semana Santa, que incluyen el Viernes Santo y el Lunes de Pascua, se celebran en todo el país con eventos religiosos y actividades festivas.",
+                    "img": "https://static.dw.com/image/57055959_6.jpg"
+                },
+                {
+                    "name": "Navidad (Weihnachten)",
+                    "description":"La Navidad se celebra con mercados navideños, decoraciones festivas y la tradición de encender velas en un calendario de Adviento.",
+                    "img": "https://static.nationalgeographic.es/files/styles/image_3200/public/e94tn0.jpg?w=1600&h=900"
+                },
+                {
+                    "name": "Oktoberfest",
+                    "description":"Aunque es más conocido en Baviera, el Oktoberfest es uno de los festivales de cerveza más grandes del mundo y atrae a visitantes de todo el país.",
+                    "img": "https://cflvdg.avoz.es/sc/gFPJXzWu9wRRUu4IkTTufaAh3hU=/480x/2017/09/16/00121505580003683895531/Foto/reu_20170916_122318541.jpg"
+                }
+            ],
+            "transport":[
+                {
+                    "name": "Autopistas (Autobahnen)",
+                    "description":"Alemania es conocida por sus autopistas sin límite de velocidad en algunas secciones, aunque también hay tramos con límites de velocidad. Las Autobahnen son una parte fundamental de la red de carreteras del país.",
+                    "img": "https://www.mannheim24.de/assets/images/2/655/2655598-224536046-alle-informationen-autobahn-deutschland-2uQIjHSg96ec.jpg"
+                },
+                {
+                    "name": "Deutsche Bahn (DB)",
+                    "description":" La compañía ferroviaria nacional alemana ofrece una amplia red de trenes de alta velocidad y regionales. Los trenes son una forma cómoda y eficiente de viajar entre ciudades.",
+                    "img": "https://utopia.de/app/uploads/2022/06/ice-pb-hpgruesen-20220624-1280x720-1.jpg"
+                },
+                {
+                    "name": "Metro (U-Bahn)",
+                    "description":"Varias ciudades alemanas, como Berlín, Múnich y Frankfurt, cuentan con sistemas de metro eficientes.",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Berlin_U-Bahn_IK_at_Olympia-Stadion_%283%29.jpg"
+                },
+                {
+                    "name": "Ciclismo",
+                    "description":"Alemania es un país amigable para los ciclistas, con una red de rutas para bicicletas bien desarrollada. Muchas ciudades tienen sistemas de alquiler de bicicletas públicas.",
+                    "img": "https://warsawtour.pl/wp-content/uploads/2021/08/Wycieczki-rowerowe-z-przewodnikiem-fot.-Station-Warsaw-2.jpg"
+                }
+            ],
+            "places": [
+                {
+                    "id": 1,
+                    "name": "Berlín",
+                    "img": "https://www.guiadealemania.com/wp-content/uploads/2021/09/berlin.jpg"
+                },
+                {
+                    "id": 2,
+                    "name": "Münich",
+                    "img": "https://www.spain.info/.content/imagenes/cabeceras-grandes/OETs/oficina-turismo-munich.jpg"
+                },
+                {
+                    "id": 3,
+                    "name": "Hamburg",
+                    "img": "https://images.ecestaticos.com/vhvjVLnMcWaS6XID8eOos9Aqvtc=/0x0:2000x1333/1338x752/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fa95%2F607%2F39d%2Fa9560739d2d751bc06ab9ea626aa4e8c.jpg"
+                }
+            ],
+            "laws": [
+                {
+                    "id": 1,
+                    "name": "Drogas y sustancias controladas",
+                    "description": "Alemania tiene leyes estrictas contra el uso y la posesión de drogas ilegales. La posesión de sustancias controladas puede resultar en sanciones graves."
+                },
+                {
+                    "id": 2,
+                    "name": "Alcohol",
+                    "description": "La edad legal para consumir alcohol en Alemania es de 16 años para la cerveza y el vino, y 18 años para bebidas alcohólicas más fuertes."
+                },
+                {
+                    "id": 3,
+                    "name": "Tabaco",
+                    "description": "La edad legal para comprar y consumir tabaco es de 18 años. Existe una prohibición de fumar en lugares públicos cerrados y transporte público."
+                },
+                {
+                    "id": 4,
+                    "name": "Normas de tráfico",
+                    "description": "Respeta las normas de tráfico, incluyendo los límites de velocidad y las regulaciones sobre estacionamiento. Alemania tiene leyes de tráfico estrictas y las infracciones pueden resultar en multas."
+                },
+                {
+                    "id": 5,
+                    "name": "Basura y reciclaje",
+                    "description": "Alemania tiene un sistema de reciclaje riguroso. Separa y recicla tu basura siguiendo las pautas locales."
+                },
+                {
+                    "id": 6,
+                    "name": "Ruido y comportamiento público",
+                    "description": "Respeta las normas de ruido y el comportamiento público en áreas residenciales y lugares públicos. El ruido excesivo y el comportamiento disruptivo pueden resultar en sanciones."
+                },
+                {
+                    "id": 7,
+                    "name": "Protección del patrimonio cultural",
+                    "description": "No dañes ni toques objetos históricos o culturales en museos, iglesias y otros lugares históricos. Esto puede resultar en sanciones legales."
                 }
             ]
         },
         {
             "id" : 2,
-            "name": "Alemania",
-            "places": [
+            "name": "Australia",
+            "img": "https://ocdn.eu/images/pulscms/Mjg7MDA_/33de5731-d6aa-4582-83d7-9eb28dabd9b2.jpeg",
+            "header": "https://imgmd.net/images/v1/guia/1698641/australia-78-cat.jpg",
+            "of_name": "Commonwealth of Australia",
+            "capital": "Canberra",
+            "surface": "7.692.024 km²",
+            "location": "Australia se encuentra en Oceanía, rodeada: al norte por el mar de Timor, el mar de Arafura y el mar del Coral, al este por el océano Pacífico, al sur por el mar de Tasmania y al este por el océano Índico.",
+            "poblation": "25.978.935",
+            "languaje": "Inglés",
+            "currency": "Dólar australiano",
+            "img_general": "https://static.vecteezy.com/system/resources/previews/022/935/985/original/australia-map-australia-flag-inside-map-png.png",
+            "recommendation_1": "La mayoría de los visitantes necesitan una visa para ingresar a Australia. La visa de turista es la más común para visitantes temporales. Verifica los requisitos específicos según tu nacionalidad antes de viajar. Puedes hacerlo a través del sitio web oficial del Gobierno de Australia o consultar con la embajada o consulado de Australia en tu país.",
+            "recommendation_2": "Australia es grande y tiene diversos climas. Prepárate para condiciones climáticas variadas según la región y la época del año.",
+            "recommendation_3": "Debido a la intensa radiación solar, usa protector solar y ropa protectora, especialmente en las áreas más cálidas.",
+            "recommendation_4": "Australia es conocida por su fauna única. Ten precaución con la vida silvestre, ya que algunos animales pueden ser peligrosos. Sigue las indicaciones locales sobre seguridad.",
+            "recommendation_5": "Evita los comentarios o comportamientos que puedan ser percibidos como racistas o sexistas.",
+            "culture": [
                 {
-                    "id": 1,
-                    "name": "Berlín",
-                    "description": "Berlín es la capital de Alemania y uno de los dieciséis estados federados alemanes. Se localiza al noreste de Alemania. Por la ciudad fluyen los ríos Spree, Havel, Panke, Dahme y Wuhle.",
-                    "img": "https://www.travelandleisure.com/thmb/Etq4zWgOW-z9H7ZScs5_6WDcDvQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/berlin-germany-aerial-lead-BERLINTG0921-475e3a333c7f4fdea7743c6fc2f261af.jpg"
+                  "name": "Historia",
+                  "description": "La historia de Australia es una narración fascinante que abarca miles de años, desde la rica herencia cultural de las poblaciones indígenas hasta la llegada de los colonizadores europeos en 1788. Australia ha crecido hasta convertirse en una nación diversa y multicultural con una mezcla única de influencias culturales y una vibrante vida contemporánea.",
+                  "img": "https://cadenaser.com/resizer/iXvUu63yWIfCNwPvZnDgxPEni_E=/736x552/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/prisaradio/NYAJDPVTQNJNNBP6Q4TJW4HSYI.jpg"
+                },
+                {
+                  "name": "Creencias y religión",
+                  "description": "Australia es una sociedad diversa en cuanto a religión y creencias. Si bien la libertad de religión está protegida por la ley, gran parte de la población practica el cristianismo, pero también hay una creciente diversidad de religiones y un número significativo de personas no religiosas. La espiritualidad indígena desempeña un papel importante en la cultura aborigen.",
+                  "img": "https://images.sbs.com.au/dims4/default/a0d0d48/2147483647/strip/true/crop/704x396+0+0/resize/1280x720!/quality/90/?url=http%3A%2F%2Fsbs-au-brightspot.s3.amazonaws.com%2Fdrupal%2Fyourlanguage%2Fpublic%2Flisticle_religion.jpeg"
+                },
+                {
+                  "name": "Vestimenta",
+                  "description": "La vestimenta en Australia es informal y cómoda, reflejando el estilo de vida al aire libre del país. La moda australiana combina prendas de alta calidad con un enfoque relajado. En ocasiones especiales, como bodas o eventos formales, se opta por atuendos elegantes, pero la norma general es la vestimenta informal.",
+                  "img": "https://www.mundocultura.org/wp-content/uploads/2018/03/Bushwear.jpg"
+                },
+                {
+                  "name": "Comportamiento",
+                  "description": "El comportamiento australiano se caracteriza por la amabilidad, la relajación y la mentalidad de 'no preocuparse'. La puntualidad y la cortesía son importantes, pero el ambiente general es informal y relajado. Los australianos valoran la igualdad y la diversidad y son conocidos por su sentido del humor.",
+                  "img": "https://elviajerofeliz.com/wp-content/uploads/2020/10/vivir-en-australia.jpg"
+                },
+                {
+                  "name": "Entretenimiento",
+                  "description": "Australia ofrece una amplia gama de entretenimiento, desde eventos deportivos y festivales culturales hasta una próspera escena artística. La música, el cine y el teatro son elementos destacados, y la cultura del café es una parte importante de la vida urbana. Las actividades al aire libre, como el surf y el senderismo, también son populares.",
+                  "img": "https://viajandoconwillyfog.files.wordpress.com/2012/05/australia.jpg"
                 }
-            ]
-        },
+              ],
+              "gastronomy": [
+                {
+                  "id": 1,
+                  "name": "Barbacoa (BBQ)",
+                  "description": "La barbacoa es una tradición en Australia, y se asan carnes y mariscos al aire libre. Los australianos disfrutan de barbacoas en la playa y en parques nacionales.",
+                  "img": "https://wsestudiosenelexterior.com/wp-content/uploads/2016/04/ws-estudios-exterior-blog-comida-australia-barbacoa.jpg"
+                },
+                {
+                  "id": 2,
+                  "name": "Vegemite",
+                  "description": "El Vegemite es una pasta para untar de levadura que se consume en todo el país. Se suele untar en tostadas o galletas saladas.",
+                  "img": "https://images.sbs.com.au/dims4/default/8322169/2147483647/strip/true/crop/1022x575+2+53/resize/1280x720!/quality/90/?url=http%3A%2F%2Fsbs-au-brightspot.s3.amazonaws.com%2Fdrupal%2Fyourlanguage%2Fpublic%2F3983130294_abfe363a3e_b_0.jpg&imwidth=1280"
+                },
+                {
+                  "id": 3,
+                  "name": "Pavlova",
+                  "description": "El pavlova es un postre popular en Australia, hecho con merengue, crema y frutas frescas. Es una delicia en celebraciones y ocasiones especiales.",
+                  "img": "https://img.taste.com.au/Ha16wS5P/taste/2016/11/pavlova-24021-1.jpeg"
+                }
+              ],
+              "fest": [
+                {
+                  "name": "Australia Day",
+                  "description": "El Día de Australia se celebra el 26 de enero en todo el país, con festivales, desfiles y fuegos artificiales en honor a la nación.",
+                  "img": "https://static.ffx.io/images/$zoom_0.266%2C$multiply_0.7725%2C$ratio_1.5%2C$width_756%2C$x_150%2C$y_128/t_crop_custom/q_86%2Cf_auto/3a69e76341d5e20d24b33d29d128821cdb43e06f"
+                },
+                {
+                  "name": "Navidad",
+                  "description": "La Navidad en Australia se celebra en pleno verano, con comidas al aire libre y actividades en la playa. Papá Noel a menudo se ve surfeando.",
+                  "img": "https://okdiario.com/img/2019/12/10/la-navidad-en-australia-una-de-las-mas-curiosas-del-mundo.jpg"
+                },
+                {
+                  "name": "Melbourne Cup",
+                  "description": "La Copa de Melbourne es una famosa carrera de caballos que para a toda la nación. Es conocida como 'la carrera que para la nación'.",
+                  "img": "https://c.tadst.com/gfx/750w/family-day-aus.jpg"
+                }
+              ],
+              "transport": [
+                {
+                  "name": "Trenes de larga distancia",
+                  "description": "Australia ofrece servicios de trenes de larga distancia que conectan ciudades importantes. El Indian Pacific y el The Ghan son dos rutas emblemáticas que cruzan el país.",
+                  "img": "https://www.luxurytrainclub.com/wp-content/uploads/2012/10/_mobileslide/Ghan-landscape-3-sm.jpg"
+                },
+                {
+                  "name": "Conducir",
+                  "description": "Australia tiene vastas distancias y una red de carreteras bien mantenida. Conducir es común, y se conduce por el lado izquierdo de la carretera.",
+                  "img": "https://admin.idaoffice.org/wp-content/uploads/2018/06/%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F-5-1024x550.jpg"
+                },
+                {
+                  "name": "Ciclismo",
+                  "description": "El ciclismo es popular en Australia, con muchas rutas y senderos para ciclistas. Las bicicletas son una forma común de transporte en algunas ciudades.",
+                  "img": "https://ciclosfera.com/img/b8f6b34e543aa0f8bfb2e6fec34d8c60.680.0.0.0.5724ae2a.webp"
+                }
+              ],
+              "places": [
+                {
+                  "id": 4,
+                  "name": "Sídney",
+                  "img": "https://www.smartertravel.com/wp-content/uploads/2017/02/sydney-opera-house.jpg"
+                },
+                {
+                  "id": 5,
+                  "name": "Melbourne",
+                  "img": "https://media.cnn.com/api/v1/images/stellar/prod/230417065723-melbourne-australia-skyline-restricted.jpg?c=original"
+                },
+                {
+                  "id": 6,
+                  "name": "Brisbane",
+                  "img": "https://vivirafuera.intriper.com/wp-content/uploads/2021/06/Como-es-vivir-en-Brisbane-Australia.png"
+                }
+              ],
+              "laws": [
+                {
+                  "id": 1,
+                  "name": "Leyes aduaneras",
+                  "description": "Australia tiene regulaciones estrictas sobre lo que puedes llevar al país. Debes declarar cualquier artículo que pueda estar sujeto a restricciones o impuestos. Obtén información detallada sobre aduanas en el sitio web de la Australian Border Force: https://www.abf.gov.au/"
+                },
+                {
+                  "id": 2,
+                  "name": "Alcohol y tabaco",
+                  "description": "La edad legal para consumir alcohol varía según el estado, pero generalmente es de 18 años. Hay restricciones en la venta de alcohol a menores. La edad legal para comprar y consumir tabaco también varía, pero generalmente es de 18 años. Existen restricciones sobre fumar en lugares públicos."
+                },
+                {
+                  "id": 3,
+                  "name": "Drogas y sustancias controladas",
+                  "description": "Australia tiene leyes severas contra el uso y la posesión de drogas ilegales. Infringir estas leyes puede resultar en sanciones graves. Más información: https://www.afp.gov.au/what-we-do/crime-types/drug-offences"
+                },
+                {
+                  "id": 4,
+                  "name": "Ley de protección de la vida marina",
+                  "description": "Australia está comprometida con la protección de su vida marina. En muchos lugares, está prohibido tocar, dañar o recolectar ciertas especies marinas, como corales y conchas."
+                },
+                {
+                  "id": 5,
+                  "name": "Prohibición de llevar armas ofensivas o defensivas",
+                  "description": "Australia tiene regulaciones estrictas sobre la posesión de armas. No se te permite llevar cuchillos, navajas u otros objetos afilados o armas defensivas en lugares públicos sin una razón legítima."
+                },
+                {
+                  "id": 6,
+                  "name": "Ley de ruidos en horarios específicos",
+                  "description": "En algunas áreas residenciales, se aplican leyes de ruido que prohíben hacer ruido excesivo durante ciertas horas del día y la noche. Esto es para mantener la tranquilidad de los vecindarios."
+                },
+                {
+                  "id": 7,
+                  "name": "Leyes de protección de la vida silvestre",
+                  "description": "Australia tiene regulaciones para proteger la vida silvestre nativa. No molestes ni dañes a los animales o recojas plantas silvestres sin permiso."
+                }
+              ]
+            },
         {   "id" : 3,
-            "name": "Bélgica",
-            "places": [
+            "name": "Canadá",
+            "img": "https://eldinero.com.do/wp-content/uploads/28-mar-2023-blog.jpg",
+            "header": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/05/26/12/shutterstock_295747448.jpg",
+            "of_name": "Canadá",
+            "capital": "Ottawa",
+            "surface": "9.984.670 km²",
+            "location": "Canadá se encuentra ubicado al extremo norte del continente americano, limita: al sur con Estados Unidos, al norte con el Océano Glaciar Ártico, al este con el Océano Atlántico, y al oeste con el Océano Pacífico y Estados Unidos (Alaska).",
+            "poblation": "38.504.990",
+            "languaje": "Inglés y francés",
+            "currency": "Dólar canadiense",
+            "img_general": "https://static.vecteezy.com/system/resources/previews/019/641/257/non_2x/canada-flag-on-map-on-transparent-background-free-png.png",
+            "recommendation_1": "Para ingresar a Canadá, en la mayoría de los casos, necesitas una visa o una Autorización Electrónica de Viaje (eTA) si eres de un país exento de visa. Verifica los requisitos específicos de tu país en el sitio web oficial de Inmigración, Refugiados y Ciudadanía de Canadá (IRCC).",
+            "recommendation_2": "Canadá es generalmente un destino seguro para viajar, pero siempre es importante estar atento a tu entorno y seguir las indicaciones locales. Asegúrate de tener un seguro de viaje adecuado para cubrir posibles emergencias médicas.",
+            "recommendation_3": "Asegúrate de tener los documentos de viaje necesarios, como un pasaporte válido y, en algunos casos, una visa, dependiendo de tu nacionalidad).",
+            "culture": [
+                {
+                    "name": "Historia",
+                    "description":"Canadá tiene una rica historia que abarca desde las culturas indígenas originales hasta la llegada de los exploradores europeos en el siglo XV, como Jacques Cartier y Samuel de Champlain. Durante los siglos XVII y XVIII, Gran Bretaña y Francia compitieron por el control de Canadá, que finalmente se convirtió en una colonia británica. Canadá obtuvo su independencia gradualmente, y en 1867, se convirtió en una confederación de provincias con la firma de la Ley de la Norteamérica Británica. A lo largo del siglo XX, Canadá se consolidó como una nación independiente y diversa, adoptando políticas de inmigración inclusivas y desempeñando un papel importante en asuntos globales.",
+                    "img": "https://curiosfera-historia.com/wp-content/uploads/hisotria-guerra-Canad%C3%A1-y-EE.UU-1812.jpg"
+                },
+                {
+                    "name": "Creencias y religión",
+                    "description":"Canadá es una sociedad diversa y multicultural que valora la libertad de religión. La religión predominante es el cristianismo, con una significativa población católica y protestante. Sin embargo, Canadá también es hogar de una amplia gama de creencias religiosas, incluyendo el islam, el judaísmo, el hinduismo y el sijismo. La pluralidad religiosa es respetada y protegida por la ley, lo que ha contribuido a la tolerancia y el respeto interreligioso en el país.",
+                    "img": "https://www.studycountry.com/assets/img/guides/church-edmonton-canada.jpg"
+                },
+                {
+                    "name": "Vestimenta",
+                    "description":"La vestimenta en Canadá es diversa y varía según la región y la estación. En el invierno, debido al clima frío, es común el uso de abrigos, bufandas, guantes y botas. La moda es una mezcla de prendas casuales y formales, con una inclinación hacia la comodidad y la funcionalidad, especialmente en las regiones más frías. En las ciudades, es común ver a las personas vestidas de manera contemporánea, y la ropa de alta calidad es apreciada. En eventos formales, como bodas, es común el uso de trajes y vestidos elegantes.",
+                    "img": "https://www.mequieroir.com/wp-content/uploads/2019/12/invierno_nieve_familia_home-1.jpg"
+                },
+                {
+                    "name": "Comportamiento",
+                    "description":"Los canadienses son conocidos por su amabilidad y cortesía. El comportamiento en Canadá se basa en la igualdad, la tolerancia y el respeto por la diversidad. La puntualidad es valorada en la vida cotidiana y en los negocios. Los canadienses son famosos por su disposición a disculparse, incluso si no son culpables, como una muestra de cortesía. Las relaciones personales se construyen con tiempo, pero una vez establecidas, suelen ser sólidas y duraderas.",
+                    "img": "https://c.files.bbci.co.uk/12BC7/production/_113234767_canada2.png"
+                },
+                {
+                    "name": "Entretenimiento",
+                    "description":"Canadá tiene una rica cultura de entretenimiento que abarca desde las artes escénicas hasta la música y el cine. El país es conocido por su contribución a la música, con artistas como Celine Dion, Justin Bieber y Drake. El teatro y las artes escénicas son apreciados en ciudades como Toronto y Vancouver, y el país ha producido cineastas de renombre mundial, como David Cronenberg. Los festivales y eventos culturales son comunes, destacando el Carnaval de Quebec y el Festival Internacional de Cine de Toronto (TIFF). Además, el hockey sobre hielo es una parte integral de la cultura deportiva de Canadá, con la NHL (Liga Nacional de Hockey) desempeñando un papel destacado en la escena deportiva.",
+                    "img": "https://www.canada-visa-online.org/uploads/image/1deb616399a7484a847df97cd2b6f102/IceHockey_1.JPG"
+                }
+            ],
+            "gastronomy":[
                 {
                     "id": 1,
-                    "name": "Bruselas",
-                    "description": "Bruselas es una ciudad muy cosmopolita, al ser la capital política de la Unión Europea, albergando el Parlamento Europeo, la Comisión y el Consejo Europeo. Asimismo es sede de la OTAN y se ha convertido en árbitro entre las irreconciliables comunidades de los flamencos y de los valones.",
-                    "img": "https://previews.123rf.com/images/photolondonuk/photolondonuk1711/photolondonuk171100095/91033982-vista-a%C3%A9rea-del-distrito-financiero-de-bruselas-paisaje-urbano-en-b%C3%A9lgica-feat-edificios.jpg"
+                    "name": "Poutine",
+                    "description":"Este plato es originario de Quebec y se ha convertido en un símbolo de la cocina canadiense. Consiste en papas fritas cubiertas con queso cheddar y salsa de carne. Es una deliciosa mezcla de sabores salados que se encuentra en todo el país.",
+                    "img": "https://www.seriouseats.com/thmb/vICHAu16XWhAc-WLQV-7avihHKY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ultimate-perfect-poutine-fries-cheese-curds-gravy-recipe-hero-2-7637732f8c174bc59f9b84e7b6e6b660.jpg"
+                },
+                {
+                    "id": 2,
+                    "name": "Tourtière",
+                    "description":"Un pastel de carne tradicional que se consume comúnmente durante las festividades de Navidad y Año Nuevo. La tourtière está rellena de carne picada, como cerdo o ternera, y sazonada con especias.",
+                    "img": "https://canalcocina.es/medias/_cache/zoom-9151fd32a3b13c7334e4679ca4e388db-920-518.jpg"
+                },
+                {
+                    "id": 3,
+                    "name": "Bannock",
+                    "description":"Un pan plano que tiene sus raíces en la cocina indígena. Puede ser frito o horneado y se sirve con una variedad de acompañamientos, desde mermeladas hasta carne.",
+                    "img": "https://anitalianinmykitchen.com/wp-content/uploads/2019/06/bannock-sq-1-of-1.jpg"
+                },
+                {
+                    "id": 4,
+                    "name": "Sirop de Liège",
+                    "description":"Un condimento espeso y dulce elaborado con manzanas y peras cocidas, típico de Quebec. Se usa comúnmente en tostadas y como acompañamiento para quesos.",
+                    "img": "https://rogerdelille.com/184-large_default/sirop-de-liege-pot-450g.jpg"
+                }
+            ],
+            "fest":[
+                {
+                    "name": "Día de Canadá (Canada Day)",
+                    "description":"Celebrado el 1 de julio, el Día de Canadá conmemora la Confederación de Canadá en 1867. Las festividades incluyen desfiles, fuegos artificiales y eventos en todo el país. En Ottawa, la capital, se lleva a cabo un gran espectáculo en la colina del Parlamento.",
+                    "img": "https://www.canada.ca/content/dam/pch/images/campaigns/canada-day/2023/cday2023-nightshow-992x661.jpg"
+                },
+                {
+                    "name": "Navidad (Christmas)",
+                    "description":"Al igual que en muchos otros países, la Navidad se celebra en Canadá el 25 de diciembre. Las festividades incluyen la decoración de árboles, el intercambio de regalos y las cenas familiares. Algunas ciudades, como Toronto, tienen desfiles de Santa Claus.",
+                    "img": "https://go.traveltuition.com/hubfs/Blog-toronto-navidad.jpg"
+                },
+                {
+                    "name": "Año Nuevo Chino (Chinese New Year)",
+                    "description":"Las comunidades chinas en Canadá celebran el Año Nuevo Chino con desfiles, espectáculos culturales y festividades que marcan la llegada del nuevo año lunar.",
+                    "img": "https://spanish.xinhuanet.com/photo/2018-02/19/136984808_15190086981361n.jpg"
+                },
+                {
+                    "name": "Ramadán y Eid al-Fitr",
+                    "description":"La comunidad musulmana de Canadá celebra el mes sagrado de Ramadán, que culmina con la festividad de Eid al-Fitr, que marca el fin del ayuno. Se realizan oraciones especiales y se comparten comidas festivas.",
+                    "img": "https://images.radio-canada.ca/q_auto,w_635/v1/ici-info/16x9/winnipeg-grand-mosque-yemen-fundraiser.png"
+                }
+            ],
+            "transport":[
+                {
+                    "name": "Ferries",
+                    "description":"Debido a su extensa costa y a las numerosas islas, los ferries son una forma común de transporte en regiones costeras y en lugares como la provincia de Terranova y Labrador.",
+                    "img": "https://www.ship-technology.com/wp-content/uploads/sites/8/2017/10/1l-image-89.jpg"
+                },
+                {
+                    "name": "Transporte Público",
+                    "description":"Las principales ciudades de Canadá, como Toronto, Montreal, Vancouver y Ottawa, cuentan con sistemas de transporte público, que incluyen autobuses, trenes y tranvías. En Toronto, por ejemplo, el TTC (Toronto Transit Commission) ofrece servicios de metro y autobuses. En Montreal, el STM (Société de transport de Montréal) opera el metro y autobuses.",
+                    "img": "https://i.cbc.ca/1.6740556.1677529448!/cpImage/httpImage/ttc-streetcar-20230205.jpg"
+                },
+                {
+                    "name": "Trenes",
+                    "description":"Viajar en tren es una opción conveniente para distancias largas. ViaRail es la empresa de trenes interurbanos que ofrece servicios en todo Canadá. El servicio de trenes es especialmente popular en el Corredor Windsor-Quebec, que conecta las principales ciudades del este de Canadá.",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/b/b6/VIA_Rail_Belleville_0002.jpg"
+                },
+                {
+                    "name": "Coche y Conducción",
+                    "description":"Muchos canadienses dependen de sus vehículos para desplazarse. Las carreteras son generalmente de buena calidad, pero las distancias pueden ser largas, especialmente en las regiones rurales. Canadá tiene una red de autopistas y carreteras que conectan las principales ciudades. Es importante tener en cuenta las condiciones climáticas, ya que el invierno puede traer condiciones de conducción desafiantes.",
+                    "img": "https://infodecanada.com/wp-content/uploads/2021/04/hombre-conduccion-coche-trasero-vista_1359-494-300x200.jpg"
+                }
+            ],
+            "places": [
+                {
+                    "id": 7,
+                    "name": "Toronto",
+                    "img": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/147000/147900-Toronto.jpg"
+                },
+                {
+                    "id": 8,
+                    "name": "Vancouver",
+                    "img": "https://www.nationsonline.org/gallery/Canada/Vancouver-skyline.jpg"
+                },
+                {
+                    "id": 9,
+                    "name": "Quebec",
+                    "img": "https://www.quebec-cite.com/sites/otq/files/styles/cinema/public/media/image/old_port_quebec.jpg?itok=tPeWB29o"
+                }
+            ],
+            "laws": [
+                {
+                    "id": 1,
+                    "name": "Respeto a la Naturaleza",
+                    "description": "Canadá es conocida por su belleza natural. Es importante respetar el medio ambiente y seguir las regulaciones locales al practicar el senderismo, acampar o explorar parques nacionales."
+                },
+                {
+                    "id": 2,
+                    "name": "No Fumar en Áreas Restringidas",
+                    "description": "En muchas provincias, no se permite fumar en lugares públicos cerrados, incluyendo restaurantes y bares. También hay restricciones sobre fumar en espacios públicos al aire libre en algunas áreas."
+                },
+                {
+                    "id": 3,
+                    "name": "Leyes de Discriminación y Odio",
+                    "description": "La discriminación y la promoción del odio basado en la raza, la religión, la orientación sexual u otros factores están prohibidas por la ley y pueden resultar en sanciones legales."
+                },
+                {
+                    "id": 4,
+                    "name": "Leyes de Tráfico",
+                    "description": "Las infracciones de tráfico, como exceso de velocidad, conducir bajo la influencia del alcohol o drogas, y no obedecer las señales de tráfico, pueden resultar en multas, puntos en tu licencia e incluso la suspensión de tu licencia de conducir. Conducir sin seguro de automóvil también puede tener consecuencias legales."
+                },
+                {
+                    "id": 5,
+                    "name": "Leyes de Alcohol en Menores de Edad",
+                    "description": "Los menores de edad que intenten comprar alcohol o utilicen identificación falsa pueden enfrentar multas y otras sanciones legales."
+                },
+                {
+                    "id": 6,
+                    "name": "Leyes de Inmigración",
+                    "description": "No cumplir con las leyes de inmigración y visados puede resultar en la deportación y la prohibición de volver a entrar en Canadá durante un período de tiempo específico."
+                },
+                {
+                    "id": 7,
+                    "name": "Leyes de Agresión Sexual y Acoso",
+                    "description": "Canadá tiene leyes estrictas contra la agresión sexual y el acoso. Cualquier forma de agresión sexual, acoso o conducta sexual inapropiada puede dar lugar a cargos penales."
                 }
             ]
         },
         {
             "id" : 4,
-            "name": "Argentina",
+            "name": "Estados Unidos",
+            "img": "https://c.files.bbci.co.uk/185FF/production/_121793899_7d83eed3-475d-4486-a6ce-62bbd915d9e3.jpg",
+            "header": "https://www.tramites-usa.com/wp-content/uploads/sites/14/2020/12/nyc-usa.jpg",
+            "of_name": "The United States of America",
+            "capital": "Washington, D.C.",
+            "surface": "9.826.675 km²",
+            "location": "Estados Unidos se encuentra en el centro-norte del continente americano, esta entre los oceanos s Pacífico y el Atlántico y limita con:  Canadá al norte y con México al sur.",
+            "poblation": "331,8 millones",
+            "languaje": "Inglés",
+            "currency": "Dólar",
+            "img_general": "https://images.vexels.com/media/users/3/128978/isolated/preview/bda6ac6e5565b962161be4f66c8868ff-bandera-de-estados-unidos-imprimir-mapa.png",
+            "recommendation_1": "La mayoría de los visitantes necesitan una visa para ingresar a Australia. La visa de turista es la más común para visitantes temporales. Verifica los requisitos específicos según tu nacionalidad antes de viajar. Puedes hacerlo a través del sitio web oficial del Gobierno de Australia o consultar con la embajada o consulado de Australia en tu país.",
+            "recommendation_2": "Australia es grande y tiene diversos climas. Prepárate para condiciones climáticas variadas según la región y la época del año.",
+            "recommendation_3": "Debido a la intensa radiación solar, usa protector solar y ropa protectora, especialmente en las áreas más cálidas.",
+            "recommendation_4": "Australia es conocida por su fauna única. Ten precaución con la vida silvestre, ya que algunos animales pueden ser peligrosos. Sigue las indicaciones locales sobre seguridad.",
+            "recommendation_5": "",
+            "culture": [
+                {
+                    "name": "Historia",
+                    "description":"La historia de Alemania es un viaje complejo a lo largo de los siglos, desde las tribus germánicas de la antigüedad hasta la formación del Imperio Alemán bajo Bismarck en 1871, pasando por la devastación de la Primera y Segunda Guerra Mundial, la división del país durante la Guerra Fría y, finalmente, su reunificación en 1990. A lo largo de esta historia, Alemania ha sido testigo de momentos de esplendor cultural y oscuros episodios, y ha emergido como una nación unificada y democrática con una influencia significativa en la escena mundial.",
+                    "img": "https://www.elindependiente.com/wp-content/uploads/2019/11/Maerz1848_berlin.jpg"
+                },
+                {
+                    "name": "Creencias y religión",
+                    "description":"Alemania es un país con una diversidad de creencias y sistemas de valores. Aunque la religión cristiana, tanto católica como protestante, tiene una presencia significativa, la sociedad alemana también es cada vez más secular. La tolerancia religiosa es un valor importante en Alemania, y la libertad de religión está protegida por la ley. Además, la creencia en la importancia de la igualdad de género, el respeto por el medio ambiente y la responsabilidad social son pilares fundamentales en la cultura alemana, influyendo en la forma en que la sociedad aborda cuestiones éticas y morales.",
+                    "img": "https://www.infocatolica.com/files/21/09/alemcruz.jpg"
+                },
+                {
+                    "name": "Vestimenta",
+                    "description":"La moda en Alemania refleja una combinación de tradición y modernidad. La vestimenta diaria es generalmente informal y práctica, con una inclinación hacia la comodidad y la funcionalidad. La ropa de alta calidad y los atuendos bien confeccionados son apreciados. En ocasiones especiales, como bodas o eventos formales, es común ver a las personas vestidas elegantemente, a menudo optando por trajes y vestidos. La moda en Alemania es diversa y variada, y las tendencias actuales coexisten con la apreciación de la artesanía y la calidad en la elección de la ropa.",
+                    "img": "https://images.prismic.io/dutchlabelshop/ccc5905c-13a3-4225-bdb3-7774d08a509f_german_folk_clothing.jpg?auto=compress,format"
+                },
+                {
+                    "name": "Comportamiento",
+                    "description":"El comportamiento de los alemanes se caracteriza por la puntualidad, la eficiencia y la cortesía. La organización y la planificación son fundamentales en la vida diaria, y cumplir con los horarios es una norma social importante. La comunicación directa y franca es valorada, y se espera que las personas sean precisas en su expresión. La cultura de la cortesía incluye el respeto a la privacidad de los demás y la puntualidad en las citas. Los alemanes también son conocidos por su compromiso con la calidad en el trabajo y en su vida cotidiana. Aunque la sociedad puede parecer reservada al principio, una vez que se establece una relación, las amistades suelen ser sólidas y duraderas.",
+                    "img": "https://blog.universaldeidiomas.com/wp-content/uploads/2021/05/Aspectos-resaltantes-del-estilo-de-vida-en-Alemania-1@2x.jpg"
+                },
+                {
+                    "name": "Entretenimiento",
+                    "description":"La cultura de entretenimiento en Alemania es variada y rica en tradición. El país ha sido cuna de renombrados músicos clásicos, como Beethoven y Bach, y tiene una escena musical contemporánea vibrante que abarca desde la música electrónica en Berlín hasta festivales de música clásica. El teatro y la ópera son apreciados, y el país es conocido por su teatro experimental y vanguardista. El cine alemán ha tenido un impacto significativo en la historia del cine, con figuras como Fritz Lang y el movimiento expresionista alemán. Además, los eventos culturales, como el Oktoberfest, el carnaval en Colonia y los mercados de Navidad, ofrecen experiencias festivas y de entretenimiento que reflejan la rica tradición cultural del país. Alemania es un lugar donde la tradición y la vanguardia se fusionan en el mundo del entretenimiento.",
+                    "img": "https://hablemosdeculturas.com/wp-content/uploads/2017/12/Cultura-Alemana-02.jpg"
+                }
+            ],
+            "gastronomy":[
+                {
+                    "id": 1,
+                    "name": "Salchicha",
+                    "description":"Las salchichas hacen parte de la icónica gastronomía de Alemania. Hay una gran variedad de salchichas alemanas, cada una con sus propias características y sabores únicos. Cada región tiene su salchicha particular.",
+                    "img": "https://tipsparatuviaje.com/wp-content/uploads/2019/12/comida-alemana.jpg"
+                },
+                {
+                    "id": 2,
+                    "name": "Cerveza",
+                    "description":"La cerveza alemana es famosa en todo el mundo por la calidad, variedad y tradición. Alemania es reconocido por ser uno de los países más cerveceros más destacados. Hay más de 5000 variedades de cervezas diferentes.",
+                    "img": "https://www.guiadealemania.com/wp-content/uploads/2011/03/Tipos-de-cervezas-en-Alemania-760x500.jpg"
+                },
+                {
+                    "id": 3,
+                    "name": "Bretzel",
+                    "description":"Es un alimento icónico y muy popular en Alemania. Es un panecillo retorcido con la superficie dorada y salada, con una froma muy única (lazo o nudo). También se encuentran variedades del Bretzel.",
+                    "img": "https://d1kxxrc2vqy8oa.cloudfront.net/wp-content/uploads/2021/08/22111304/RFB-2603-4-bretzel.jpg"
+                },
+                {
+                    "id": 4,
+                    "name": "Schnitzel",
+                    "description":"Es uno de los platos típicos de Alemania y Austria, pero también se puede encontrar en otros países europeos. Es una carne apanada y frita, la cual normalmente esta hecha de carne de cerdo o ternera.",
+                    "img": "https://i.ytimg.com/vi/HJ8paSz9-ys/mqdefault.jpg"
+                }
+            ],
+            "fest":[
+                {
+                    "name": "Año Nuevo (Neujahr)",
+                    "description":"La llegada del Año Nuevo se celebra en toda Alemania con fuegos artificiales y festividades públicas.",
+                    "img": "https://actualidaddealemania.files.wordpress.com/2015/12/berlin.jpg?w=800"
+                },
+                {
+                    "name": "Semana Santa (Ostern)",
+                    "description":"Las festividades de Semana Santa, que incluyen el Viernes Santo y el Lunes de Pascua, se celebran en todo el país con eventos religiosos y actividades festivas.",
+                    "img": "https://static.dw.com/image/57055959_6.jpg"
+                },
+                {
+                    "name": "Navidad (Weihnachten)",
+                    "description":"La Navidad se celebra con mercados navideños, decoraciones festivas y la tradición de encender velas en un calendario de Adviento.",
+                    "img": "https://static.nationalgeographic.es/files/styles/image_3200/public/e94tn0.jpg?w=1600&h=900"
+                },
+                {
+                    "name": "Oktoberfest",
+                    "description":"Aunque es más conocido en Baviera, el Oktoberfest es uno de los festivales de cerveza más grandes del mundo y atrae a visitantes de todo el país.",
+                    "img": "https://cflvdg.avoz.es/sc/gFPJXzWu9wRRUu4IkTTufaAh3hU=/480x/2017/09/16/00121505580003683895531/Foto/reu_20170916_122318541.jpg"
+                }
+            ],
+            "transport":[
+                {
+                    "name": "Autopistas (Autobahnen)",
+                    "description":"Alemania es conocida por sus autopistas sin límite de velocidad en algunas secciones, aunque también hay tramos con límites de velocidad. Las Autobahnen son una parte fundamental de la red de carreteras del país.",
+                    "img": "https://www.mannheim24.de/assets/images/2/655/2655598-224536046-alle-informationen-autobahn-deutschland-2uQIjHSg96ec.jpg"
+                },
+                {
+                    "name": "Deutsche Bahn (DB)",
+                    "description":" La compañía ferroviaria nacional alemana ofrece una amplia red de trenes de alta velocidad y regionales. Los trenes son una forma cómoda y eficiente de viajar entre ciudades.",
+                    "img": "https://utopia.de/app/uploads/2022/06/ice-pb-hpgruesen-20220624-1280x720-1.jpg"
+                },
+                {
+                    "name": "Metro (U-Bahn)",
+                    "description":"Varias ciudades alemanas, como Berlín, Múnich y Frankfurt, cuentan con sistemas de metro eficientes.",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Berlin_U-Bahn_IK_at_Olympia-Stadion_%283%29.jpg"
+                },
+                {
+                    "name": "Ciclismo",
+                    "description":"Alemania es un país amigable para los ciclistas, con una red de rutas para bicicletas bien desarrollada. Muchas ciudades tienen sistemas de alquiler de bicicletas públicas.",
+                    "img": "https://warsawtour.pl/wp-content/uploads/2021/08/Wycieczki-rowerowe-z-przewodnikiem-fot.-Station-Warsaw-2.jpg"
+                }
+            ],
             "places": [
                 {
                     "id": 1,
                     "name": "Buenos Aires",
                     "description": "La Ciudad de Buenos Aires o Ciudad Autónoma de Buenos Aires ―también llamada Capital Federal por ser sede del gobierno federal― es la capital de la República Argentina. Está situada en la región centro-este del país, sobre la orilla occidental del Río de la Plata, en plena llanura pampeana.",
                     "img": "https://estaticos-cdn.elperiodico.com/clip/80ccbd4a-9d52-4b2a-b2b3-e9c254b3447c_alta-libre-aspect-ratio_default_0.jpg"
+                }
+            ],
+            "laws": [
+                {
+                    "id": 1,
+                    "name": "Drogas y sustancias controladas",
+                    "description": "Alemania tiene leyes estrictas contra el uso y la posesión de drogas ilegales. La posesión de sustancias controladas puede resultar en sanciones graves."
+                },
+                {
+                    "id": 2,
+                    "name": "Alcohol",
+                    "description": "La edad legal para consumir alcohol en Alemania es de 16 años para la cerveza y el vino, y 18 años para bebidas alcohólicas más fuertes."
+                },
+                {
+                    "id": 3,
+                    "name": "Tabaco",
+                    "description": "La edad legal para comprar y consumir tabaco es de 18 años. Existe una prohibición de fumar en lugares públicos cerrados y transporte público."
+                },
+                {
+                    "id": 4,
+                    "name": "Normas de tráfico",
+                    "description": "Respeta las normas de tráfico, incluyendo los límites de velocidad y las regulaciones sobre estacionamiento. Alemania tiene leyes de tráfico estrictas y las infracciones pueden resultar en multas."
+                },
+                {
+                    "id": 5,
+                    "name": "Basura y reciclaje",
+                    "description": "Alemania tiene un sistema de reciclaje riguroso. Separa y recicla tu basura siguiendo las pautas locales."
+                },
+                {
+                    "id": 6,
+                    "name": "Ruido y comportamiento público",
+                    "description": "Respeta las normas de ruido y el comportamiento público en áreas residenciales y lugares públicos. El ruido excesivo y el comportamiento disruptivo pueden resultar en sanciones."
+                },
+                {
+                    "id": 7,
+                    "name": "Protección del patrimonio cultural",
+                    "description": "No dañes ni toques objetos históricos o culturales en museos, iglesias y otros lugares históricos. Esto puede resultar en sanciones legales."
+                }
+            ]
+        },
+        {
+            "id" : 5,
+            "name": "Grecia",
+            "img": "https://excursy.net/dicas-viagem/wp-content/uploads/2019/12/1.jpg",
+            "header": "https://www.autopista.es/uploads/s1/96/21/38/5/vista-de-la-acropolis-de-atenas-en-grecia.jpeg",
+            "of_name": "República Helénica",
+            "capital": "Atenas",
+            "surface": "131.957 km²",
+            "location": "Grecia se encuentra en el sureste de Europa, en la confluencia de tres continentes: Asia, África y Europa, limita con: Albania al noroeste, con Bulgaria y Macedonia al norte y con Turquía al este y suroeste. Tiene al mar Egeo al sur y al mar Mediterráneo al sureste.",
+            "poblation": "10.482.487",
+            "languaje": "Griego",
+            "currency": "Euro",
+            "img_general": "https://static.vecteezy.com/system/resources/previews/012/177/310/non_2x/greece-map-city-color-of-country-flag-png.png",
+            "recommendation_1": "El idioma oficial es el griego, pero en las áreas turísticas es común encontrar personas que hablan inglés y otros idiomas.",
+            "recommendation_2": "El mejor momento para visitar Grecia es durante la primavera (de abril a junio) o el otoño (de septiembre a octubre). El clima es agradable durante estos meses, y las multitudes son más pequeñas.",
+            "recommendation_3": "",
+            "recommendation_4": "",
+            "recommendation_5": "",
+            "culture": [
+                {
+                    "name": "Historia",
+                    "description":"La historia de Alemania es un viaje complejo a lo largo de los siglos, desde las tribus germánicas de la antigüedad hasta la formación del Imperio Alemán bajo Bismarck en 1871, pasando por la devastación de la Primera y Segunda Guerra Mundial, la división del país durante la Guerra Fría y, finalmente, su reunificación en 1990. A lo largo de esta historia, Alemania ha sido testigo de momentos de esplendor cultural y oscuros episodios, y ha emergido como una nación unificada y democrática con una influencia significativa en la escena mundial.",
+                    "img": "https://www.elindependiente.com/wp-content/uploads/2019/11/Maerz1848_berlin.jpg"
+                },
+                {
+                    "name": "Creencias y religión",
+                    "description":"Alemania es un país con una diversidad de creencias y sistemas de valores. Aunque la religión cristiana, tanto católica como protestante, tiene una presencia significativa, la sociedad alemana también es cada vez más secular. La tolerancia religiosa es un valor importante en Alemania, y la libertad de religión está protegida por la ley. Además, la creencia en la importancia de la igualdad de género, el respeto por el medio ambiente y la responsabilidad social son pilares fundamentales en la cultura alemana, influyendo en la forma en que la sociedad aborda cuestiones éticas y morales.",
+                    "img": "https://www.infocatolica.com/files/21/09/alemcruz.jpg"
+                },
+                {
+                    "name": "Vestimenta",
+                    "description":"La moda en Alemania refleja una combinación de tradición y modernidad. La vestimenta diaria es generalmente informal y práctica, con una inclinación hacia la comodidad y la funcionalidad. La ropa de alta calidad y los atuendos bien confeccionados son apreciados. En ocasiones especiales, como bodas o eventos formales, es común ver a las personas vestidas elegantemente, a menudo optando por trajes y vestidos. La moda en Alemania es diversa y variada, y las tendencias actuales coexisten con la apreciación de la artesanía y la calidad en la elección de la ropa.",
+                    "img": "https://images.prismic.io/dutchlabelshop/ccc5905c-13a3-4225-bdb3-7774d08a509f_german_folk_clothing.jpg?auto=compress,format"
+                },
+                {
+                    "name": "Comportamiento",
+                    "description":"El comportamiento de los alemanes se caracteriza por la puntualidad, la eficiencia y la cortesía. La organización y la planificación son fundamentales en la vida diaria, y cumplir con los horarios es una norma social importante. La comunicación directa y franca es valorada, y se espera que las personas sean precisas en su expresión. La cultura de la cortesía incluye el respeto a la privacidad de los demás y la puntualidad en las citas. Los alemanes también son conocidos por su compromiso con la calidad en el trabajo y en su vida cotidiana. Aunque la sociedad puede parecer reservada al principio, una vez que se establece una relación, las amistades suelen ser sólidas y duraderas.",
+                    "img": "https://blog.universaldeidiomas.com/wp-content/uploads/2021/05/Aspectos-resaltantes-del-estilo-de-vida-en-Alemania-1@2x.jpg"
+                },
+                {
+                    "name": "Entretenimiento",
+                    "description":"La cultura de entretenimiento en Alemania es variada y rica en tradición. El país ha sido cuna de renombrados músicos clásicos, como Beethoven y Bach, y tiene una escena musical contemporánea vibrante que abarca desde la música electrónica en Berlín hasta festivales de música clásica. El teatro y la ópera son apreciados, y el país es conocido por su teatro experimental y vanguardista. El cine alemán ha tenido un impacto significativo en la historia del cine, con figuras como Fritz Lang y el movimiento expresionista alemán. Además, los eventos culturales, como el Oktoberfest, el carnaval en Colonia y los mercados de Navidad, ofrecen experiencias festivas y de entretenimiento que reflejan la rica tradición cultural del país. Alemania es un lugar donde la tradición y la vanguardia se fusionan en el mundo del entretenimiento.",
+                    "img": "https://hablemosdeculturas.com/wp-content/uploads/2017/12/Cultura-Alemana-02.jpg"
+                }
+            ],
+            "gastronomy":[
+                {
+                    "id": 1,
+                    "name": "Salchicha",
+                    "description":"Las salchichas hacen parte de la icónica gastronomía de Alemania. Hay una gran variedad de salchichas alemanas, cada una con sus propias características y sabores únicos. Cada región tiene su salchicha particular.",
+                    "img": "https://tipsparatuviaje.com/wp-content/uploads/2019/12/comida-alemana.jpg"
+                },
+                {
+                    "id": 2,
+                    "name": "Cerveza",
+                    "description":"La cerveza alemana es famosa en todo el mundo por la calidad, variedad y tradición. Alemania es reconocido por ser uno de los países más cerveceros más destacados. Hay más de 5000 variedades de cervezas diferentes.",
+                    "img": "https://www.guiadealemania.com/wp-content/uploads/2011/03/Tipos-de-cervezas-en-Alemania-760x500.jpg"
+                },
+                {
+                    "id": 3,
+                    "name": "Bretzel",
+                    "description":"Es un alimento icónico y muy popular en Alemania. Es un panecillo retorcido con la superficie dorada y salada, con una froma muy única (lazo o nudo). También se encuentran variedades del Bretzel.",
+                    "img": "https://d1kxxrc2vqy8oa.cloudfront.net/wp-content/uploads/2021/08/22111304/RFB-2603-4-bretzel.jpg"
+                },
+                {
+                    "id": 4,
+                    "name": "Schnitzel",
+                    "description":"Es uno de los platos típicos de Alemania y Austria, pero también se puede encontrar en otros países europeos. Es una carne apanada y frita, la cual normalmente esta hecha de carne de cerdo o ternera.",
+                    "img": "https://i.ytimg.com/vi/HJ8paSz9-ys/mqdefault.jpg"
+                }
+            ],
+            "fest":[
+                {
+                    "name": "Año Nuevo (Neujahr)",
+                    "description":"La llegada del Año Nuevo se celebra en toda Alemania con fuegos artificiales y festividades públicas.",
+                    "img": "https://actualidaddealemania.files.wordpress.com/2015/12/berlin.jpg?w=800"
+                },
+                {
+                    "name": "Semana Santa (Ostern)",
+                    "description":"Las festividades de Semana Santa, que incluyen el Viernes Santo y el Lunes de Pascua, se celebran en todo el país con eventos religiosos y actividades festivas.",
+                    "img": "https://static.dw.com/image/57055959_6.jpg"
+                },
+                {
+                    "name": "Navidad (Weihnachten)",
+                    "description":"La Navidad se celebra con mercados navideños, decoraciones festivas y la tradición de encender velas en un calendario de Adviento.",
+                    "img": "https://static.nationalgeographic.es/files/styles/image_3200/public/e94tn0.jpg?w=1600&h=900"
+                },
+                {
+                    "name": "Oktoberfest",
+                    "description":"Aunque es más conocido en Baviera, el Oktoberfest es uno de los festivales de cerveza más grandes del mundo y atrae a visitantes de todo el país.",
+                    "img": "https://cflvdg.avoz.es/sc/gFPJXzWu9wRRUu4IkTTufaAh3hU=/480x/2017/09/16/00121505580003683895531/Foto/reu_20170916_122318541.jpg"
+                }
+            ],
+            "transport":[
+                {
+                    "name": "Autopistas (Autobahnen)",
+                    "description":"Alemania es conocida por sus autopistas sin límite de velocidad en algunas secciones, aunque también hay tramos con límites de velocidad. Las Autobahnen son una parte fundamental de la red de carreteras del país.",
+                    "img": "https://www.mannheim24.de/assets/images/2/655/2655598-224536046-alle-informationen-autobahn-deutschland-2uQIjHSg96ec.jpg"
+                },
+                {
+                    "name": "Deutsche Bahn (DB)",
+                    "description":" La compañía ferroviaria nacional alemana ofrece una amplia red de trenes de alta velocidad y regionales. Los trenes son una forma cómoda y eficiente de viajar entre ciudades.",
+                    "img": "https://utopia.de/app/uploads/2022/06/ice-pb-hpgruesen-20220624-1280x720-1.jpg"
+                },
+                {
+                    "name": "Metro (U-Bahn)",
+                    "description":"Varias ciudades alemanas, como Berlín, Múnich y Frankfurt, cuentan con sistemas de metro eficientes.",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Berlin_U-Bahn_IK_at_Olympia-Stadion_%283%29.jpg"
+                },
+                {
+                    "name": "Ciclismo",
+                    "description":"Alemania es un país amigable para los ciclistas, con una red de rutas para bicicletas bien desarrollada. Muchas ciudades tienen sistemas de alquiler de bicicletas públicas.",
+                    "img": "https://warsawtour.pl/wp-content/uploads/2021/08/Wycieczki-rowerowe-z-przewodnikiem-fot.-Station-Warsaw-2.jpg"
+                }
+            ],
+            "places": [
+                {
+                    "id": 1,
+                    "name": "Buenos Aires",
+                    "description": "La Ciudad de Buenos Aires o Ciudad Autónoma de Buenos Aires ―también llamada Capital Federal por ser sede del gobierno federal― es la capital de la República Argentina. Está situada en la región centro-este del país, sobre la orilla occidental del Río de la Plata, en plena llanura pampeana.",
+                    "img": "https://estaticos-cdn.elperiodico.com/clip/80ccbd4a-9d52-4b2a-b2b3-e9c254b3447c_alta-libre-aspect-ratio_default_0.jpg"
+                }
+            ],
+            "laws": [
+                {
+                    "id": 1,
+                    "name": "Drogas y sustancias controladas",
+                    "description": "Alemania tiene leyes estrictas contra el uso y la posesión de drogas ilegales. La posesión de sustancias controladas puede resultar en sanciones graves."
+                },
+                {
+                    "id": 2,
+                    "name": "Alcohol",
+                    "description": "La edad legal para consumir alcohol en Alemania es de 16 años para la cerveza y el vino, y 18 años para bebidas alcohólicas más fuertes."
+                },
+                {
+                    "id": 3,
+                    "name": "Tabaco",
+                    "description": "La edad legal para comprar y consumir tabaco es de 18 años. Existe una prohibición de fumar en lugares públicos cerrados y transporte público."
+                },
+                {
+                    "id": 4,
+                    "name": "Normas de tráfico",
+                    "description": "Respeta las normas de tráfico, incluyendo los límites de velocidad y las regulaciones sobre estacionamiento. Alemania tiene leyes de tráfico estrictas y las infracciones pueden resultar en multas."
+                },
+                {
+                    "id": 5,
+                    "name": "Basura y reciclaje",
+                    "description": "Alemania tiene un sistema de reciclaje riguroso. Separa y recicla tu basura siguiendo las pautas locales."
+                },
+                {
+                    "id": 6,
+                    "name": "Ruido y comportamiento público",
+                    "description": "Respeta las normas de ruido y el comportamiento público en áreas residenciales y lugares públicos. El ruido excesivo y el comportamiento disruptivo pueden resultar en sanciones."
+                },
+                {
+                    "id": 7,
+                    "name": "Protección del patrimonio cultural",
+                    "description": "No dañes ni toques objetos históricos o culturales en museos, iglesias y otros lugares históricos. Esto puede resultar en sanciones legales."
+                }
+            ]
+        },
+        {
+            "id" : 6,
+            "name": "México",
+            "img": "https://colombia.reportnews.la/wp-content/uploads/sites/2/2023/04/Mexico.jpg",
+            "header": "https://visitmexico.com/wp-content/uploads/2022/09/Plaza-de-las-3-Culturas_CARLOS-ADAMPOL-GALINDO.png",
+            "of_name": "Estados Unidos Mexicanos",
+            "capital": "Ciudad de México.",
+            "surface": "1.972.550 km².",
+            "location": "México se encuentra ubicado en centro del continente americano, limita: al norte, Estados Unidos; Este, Golfo de México; Sur, Belice y Guatemala; Oeste, Océano Pacífico.",
+            "poblation": "126.7 millones",
+            "languaje": "Constitución no establece un idioma oficial, pero prácticamente el 100% de la población habla español.",
+            "currency": "Peso mexicano",
+            "img_general": "https://us.123rf.com/450wm/alancotton/alancotton1709/alancotton170900003/85048139-mapa-de-contorno-de-m%C3%A9xico-con-la-bandera-sobre-un-fondo-blanco.jpg",
+            "recommendation_1": "México tiene una historia rica que abarca civilizaciones antiguas como los aztecas y los mayas, la colonización española y la lucha por la independencia. El 16 de septiembre se celebra el Día de la Independencia de México.",
+            "recommendation_2": "México cuenta con una gran biodiversidad y una variedad de paisajes, que incluyen playas, selvas, montañas y desiertos. El país es hogar de muchas especies de flora y fauna únicas.",
+            "recommendation_3": "En México, es común dejar propinas en restaurantes, bares y otros servicios. En los restaurantes, se espera dejar al menos el 10% de la factura como propina, y más si el servicio fue excepcional.",
+            "recommendation_4": "México es una de las más grandes de América Latina y es diversificada, con sectores como la industria manufacturera, el petróleo y el turismo.",
+            "recommendation_5": "",
+            "culture": [
+                {
+                    "name": "Historia",
+                    "description":"La historia de Alemania es un viaje complejo a lo largo de los siglos, desde las tribus germánicas de la antigüedad hasta la formación del Imperio Alemán bajo Bismarck en 1871, pasando por la devastación de la Primera y Segunda Guerra Mundial, la división del país durante la Guerra Fría y, finalmente, su reunificación en 1990. A lo largo de esta historia, Alemania ha sido testigo de momentos de esplendor cultural y oscuros episodios, y ha emergido como una nación unificada y democrática con una influencia significativa en la escena mundial.",
+                    "img": "https://www.elindependiente.com/wp-content/uploads/2019/11/Maerz1848_berlin.jpg"
+                },
+                {
+                    "name": "Creencias y religión",
+                    "description":"Alemania es un país con una diversidad de creencias y sistemas de valores. Aunque la religión cristiana, tanto católica como protestante, tiene una presencia significativa, la sociedad alemana también es cada vez más secular. La tolerancia religiosa es un valor importante en Alemania, y la libertad de religión está protegida por la ley. Además, la creencia en la importancia de la igualdad de género, el respeto por el medio ambiente y la responsabilidad social son pilares fundamentales en la cultura alemana, influyendo en la forma en que la sociedad aborda cuestiones éticas y morales.",
+                    "img": "https://www.infocatolica.com/files/21/09/alemcruz.jpg"
+                },
+                {
+                    "name": "Vestimenta",
+                    "description":"La moda en Alemania refleja una combinación de tradición y modernidad. La vestimenta diaria es generalmente informal y práctica, con una inclinación hacia la comodidad y la funcionalidad. La ropa de alta calidad y los atuendos bien confeccionados son apreciados. En ocasiones especiales, como bodas o eventos formales, es común ver a las personas vestidas elegantemente, a menudo optando por trajes y vestidos. La moda en Alemania es diversa y variada, y las tendencias actuales coexisten con la apreciación de la artesanía y la calidad en la elección de la ropa.",
+                    "img": "https://images.prismic.io/dutchlabelshop/ccc5905c-13a3-4225-bdb3-7774d08a509f_german_folk_clothing.jpg?auto=compress,format"
+                },
+                {
+                    "name": "Comportamiento",
+                    "description":"El comportamiento de los alemanes se caracteriza por la puntualidad, la eficiencia y la cortesía. La organización y la planificación son fundamentales en la vida diaria, y cumplir con los horarios es una norma social importante. La comunicación directa y franca es valorada, y se espera que las personas sean precisas en su expresión. La cultura de la cortesía incluye el respeto a la privacidad de los demás y la puntualidad en las citas. Los alemanes también son conocidos por su compromiso con la calidad en el trabajo y en su vida cotidiana. Aunque la sociedad puede parecer reservada al principio, una vez que se establece una relación, las amistades suelen ser sólidas y duraderas.",
+                    "img": "https://blog.universaldeidiomas.com/wp-content/uploads/2021/05/Aspectos-resaltantes-del-estilo-de-vida-en-Alemania-1@2x.jpg"
+                },
+                {
+                    "name": "Entretenimiento",
+                    "description":"La cultura de entretenimiento en Alemania es variada y rica en tradición. El país ha sido cuna de renombrados músicos clásicos, como Beethoven y Bach, y tiene una escena musical contemporánea vibrante que abarca desde la música electrónica en Berlín hasta festivales de música clásica. El teatro y la ópera son apreciados, y el país es conocido por su teatro experimental y vanguardista. El cine alemán ha tenido un impacto significativo en la historia del cine, con figuras como Fritz Lang y el movimiento expresionista alemán. Además, los eventos culturales, como el Oktoberfest, el carnaval en Colonia y los mercados de Navidad, ofrecen experiencias festivas y de entretenimiento que reflejan la rica tradición cultural del país. Alemania es un lugar donde la tradición y la vanguardia se fusionan en el mundo del entretenimiento.",
+                    "img": "https://hablemosdeculturas.com/wp-content/uploads/2017/12/Cultura-Alemana-02.jpg"
+                }
+            ],
+            "gastronomy":[
+                {
+                    "id": 1,
+                    "name": "Salchicha",
+                    "description":"Las salchichas hacen parte de la icónica gastronomía de Alemania. Hay una gran variedad de salchichas alemanas, cada una con sus propias características y sabores únicos. Cada región tiene su salchicha particular.",
+                    "img": "https://tipsparatuviaje.com/wp-content/uploads/2019/12/comida-alemana.jpg"
+                },
+                {
+                    "id": 2,
+                    "name": "Cerveza",
+                    "description":"La cerveza alemana es famosa en todo el mundo por la calidad, variedad y tradición. Alemania es reconocido por ser uno de los países más cerveceros más destacados. Hay más de 5000 variedades de cervezas diferentes.",
+                    "img": "https://www.guiadealemania.com/wp-content/uploads/2011/03/Tipos-de-cervezas-en-Alemania-760x500.jpg"
+                },
+                {
+                    "id": 3,
+                    "name": "Bretzel",
+                    "description":"Es un alimento icónico y muy popular en Alemania. Es un panecillo retorcido con la superficie dorada y salada, con una froma muy única (lazo o nudo). También se encuentran variedades del Bretzel.",
+                    "img": "https://d1kxxrc2vqy8oa.cloudfront.net/wp-content/uploads/2021/08/22111304/RFB-2603-4-bretzel.jpg"
+                },
+                {
+                    "id": 4,
+                    "name": "Schnitzel",
+                    "description":"Es uno de los platos típicos de Alemania y Austria, pero también se puede encontrar en otros países europeos. Es una carne apanada y frita, la cual normalmente esta hecha de carne de cerdo o ternera.",
+                    "img": "https://i.ytimg.com/vi/HJ8paSz9-ys/mqdefault.jpg"
+                }
+            ],
+            "fest":[
+                {
+                    "name": "Año Nuevo (Neujahr)",
+                    "description":"La llegada del Año Nuevo se celebra en toda Alemania con fuegos artificiales y festividades públicas.",
+                    "img": "https://actualidaddealemania.files.wordpress.com/2015/12/berlin.jpg?w=800"
+                },
+                {
+                    "name": "Semana Santa (Ostern)",
+                    "description":"Las festividades de Semana Santa, que incluyen el Viernes Santo y el Lunes de Pascua, se celebran en todo el país con eventos religiosos y actividades festivas.",
+                    "img": "https://static.dw.com/image/57055959_6.jpg"
+                },
+                {
+                    "name": "Navidad (Weihnachten)",
+                    "description":"La Navidad se celebra con mercados navideños, decoraciones festivas y la tradición de encender velas en un calendario de Adviento.",
+                    "img": "https://static.nationalgeographic.es/files/styles/image_3200/public/e94tn0.jpg?w=1600&h=900"
+                },
+                {
+                    "name": "Oktoberfest",
+                    "description":"Aunque es más conocido en Baviera, el Oktoberfest es uno de los festivales de cerveza más grandes del mundo y atrae a visitantes de todo el país.",
+                    "img": "https://cflvdg.avoz.es/sc/gFPJXzWu9wRRUu4IkTTufaAh3hU=/480x/2017/09/16/00121505580003683895531/Foto/reu_20170916_122318541.jpg"
+                }
+            ],
+            "transport":[
+                {
+                    "name": "Autopistas (Autobahnen)",
+                    "description":"Alemania es conocida por sus autopistas sin límite de velocidad en algunas secciones, aunque también hay tramos con límites de velocidad. Las Autobahnen son una parte fundamental de la red de carreteras del país.",
+                    "img": "https://www.mannheim24.de/assets/images/2/655/2655598-224536046-alle-informationen-autobahn-deutschland-2uQIjHSg96ec.jpg"
+                },
+                {
+                    "name": "Deutsche Bahn (DB)",
+                    "description":" La compañía ferroviaria nacional alemana ofrece una amplia red de trenes de alta velocidad y regionales. Los trenes son una forma cómoda y eficiente de viajar entre ciudades.",
+                    "img": "https://utopia.de/app/uploads/2022/06/ice-pb-hpgruesen-20220624-1280x720-1.jpg"
+                },
+                {
+                    "name": "Metro (U-Bahn)",
+                    "description":"Varias ciudades alemanas, como Berlín, Múnich y Frankfurt, cuentan con sistemas de metro eficientes.",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Berlin_U-Bahn_IK_at_Olympia-Stadion_%283%29.jpg"
+                },
+                {
+                    "name": "Ciclismo",
+                    "description":"Alemania es un país amigable para los ciclistas, con una red de rutas para bicicletas bien desarrollada. Muchas ciudades tienen sistemas de alquiler de bicicletas públicas.",
+                    "img": "https://warsawtour.pl/wp-content/uploads/2021/08/Wycieczki-rowerowe-z-przewodnikiem-fot.-Station-Warsaw-2.jpg"
+                }
+            ],
+            "places": [
+                {
+                    "id": 1,
+                    "name": "Buenos Aires",
+                    "description": "La Ciudad de Buenos Aires o Ciudad Autónoma de Buenos Aires ―también llamada Capital Federal por ser sede del gobierno federal― es la capital de la República Argentina. Está situada en la región centro-este del país, sobre la orilla occidental del Río de la Plata, en plena llanura pampeana.",
+                    "img": "https://estaticos-cdn.elperiodico.com/clip/80ccbd4a-9d52-4b2a-b2b3-e9c254b3447c_alta-libre-aspect-ratio_default_0.jpg"
+                }
+            ],
+            "laws": [
+                {
+                    "id": 1,
+                    "name": "Drogas y sustancias controladas",
+                    "description": "Alemania tiene leyes estrictas contra el uso y la posesión de drogas ilegales. La posesión de sustancias controladas puede resultar en sanciones graves."
+                },
+                {
+                    "id": 2,
+                    "name": "Alcohol",
+                    "description": "La edad legal para consumir alcohol en Alemania es de 16 años para la cerveza y el vino, y 18 años para bebidas alcohólicas más fuertes."
+                },
+                {
+                    "id": 3,
+                    "name": "Tabaco",
+                    "description": "La edad legal para comprar y consumir tabaco es de 18 años. Existe una prohibición de fumar en lugares públicos cerrados y transporte público."
+                },
+                {
+                    "id": 4,
+                    "name": "Normas de tráfico",
+                    "description": "Respeta las normas de tráfico, incluyendo los límites de velocidad y las regulaciones sobre estacionamiento. Alemania tiene leyes de tráfico estrictas y las infracciones pueden resultar en multas."
+                },
+                {
+                    "id": 5,
+                    "name": "Basura y reciclaje",
+                    "description": "Alemania tiene un sistema de reciclaje riguroso. Separa y recicla tu basura siguiendo las pautas locales."
+                },
+                {
+                    "id": 6,
+                    "name": "Ruido y comportamiento público",
+                    "description": "Respeta las normas de ruido y el comportamiento público en áreas residenciales y lugares públicos. El ruido excesivo y el comportamiento disruptivo pueden resultar en sanciones."
+                },
+                {
+                    "id": 7,
+                    "name": "Protección del patrimonio cultural",
+                    "description": "No dañes ni toques objetos históricos o culturales en museos, iglesias y otros lugares históricos. Esto puede resultar en sanciones legales."
                 }
             ]
         }

@@ -46,8 +46,10 @@ const Signin = () => {
         axios.post('http://localhost:8080/api/users/signin', userlog)
           .then(function (response) {
             if(response.data.valid){
-                alert("Correcto");
+                localStorage.setItem("user", JSON.stringify(userlog.username));
+                setMessage("Sesión iniciada");
                 navigate('/');
+                window.location.reload();
             }
             else {
                 setMessage("Usuario o contraseña incorrectos.");

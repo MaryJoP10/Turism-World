@@ -96,18 +96,17 @@
     padding: 0.5rem 1rem;
     color: #000;
     background: rgba(254, 254, 254, 0.575);
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 15px;
     line-height: 25px;
     outline: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-right: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
 }
-
-
-
 .register button:hover,
 .responsive_container button:hover{
     border-color: white;

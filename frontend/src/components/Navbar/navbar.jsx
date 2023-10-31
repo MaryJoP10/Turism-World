@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import { NavLink as Link } from "react-router-dom";
 import styled from 'styled-components'
@@ -11,9 +11,22 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [toggleConfig, setToggleConfig] = useState(false);
   const [searchInput, setSearchInput] = useState("");
+  const [user, setUser] = useState(null);
   const handleChange = (event) => {
     setSearchInput(event.target.value);
   };
+
+  useEffect(() => {
+    const savedUser = localStorage.getItem("user");
+    if(savedUser) {
+      setUser(JSON.parse(savedUser));
+    }
+  }, []);
+
+  const handleLogout = () => {
+    localStorage.removeItem("user");
+    setUser(null);
+  }
   return (
     <>
       <Nav className="nav">
@@ -44,10 +57,18 @@ const Navbar = () => {
               />
             </div>
           </div>
-          <div className="register">
-            <NavLink to="/signin">
-              <button>Iniciar Sesión</button>
-            </NavLink>
+          <div style={{display: 'flex'}} className="register">
+            {user ? (
+              <>
+                <p style={{textAlign: 'left', fontSize: '1.5vw', marginRight: '5vw'}}>Hola, {user}</p>
+                <button onClick={handleLogout}>Cerrar Sesión</button>
+                </>
+              ): (
+              <NavLink to="/signin">
+                <button>Iniciar Sesión</button>
+              </NavLink>
+            )}
+            
             {toggleConfig
               ? <MdLanguage className="icon" onClick={() => setToggleConfig(false)} />
               : <MdLanguage className="icon" onClick={() => setToggleConfig(true)} />
